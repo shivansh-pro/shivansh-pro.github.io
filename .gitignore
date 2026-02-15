@@ -8,3 +8,5 @@ Resume-ShivanshSingh.pdf
 # OS specific
 .DS_Store
 Thumbs.db
+/.quarto/
+**/*.quarto_ipynb
