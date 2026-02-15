@@ -2,17 +2,77 @@
 title: "Shivansh Singh"
 ---
 
+::: {.quarto-title-authors}
+Brampton, ON | (647) 568-8868 | [pro.shivansh@gmail.com](mailto:pro.shivansh@gmail.com)
+:::
+
 ::: {.content-visible when-format="html"}
 [Download PDF Resume](Resume-ShivanshSingh.pdf){.btn .btn-outline-primary .btn-sm role="button"}
 :::
 
-# Experience
+## PROFESSIONAL SUMMARY
 
-### Software Engineer | Interactive Brokers (IBKR) Trading
-*Toronto, ON | Jan 2024 – Present*
+Senior-level Software and Data Engineer with **10+ years of experience** architecting scalable backend systems, cloud-native data platforms, and machine learning solutions. Proven track record of leading high-stakes infrastructure migrations and optimizing cloud environments to achieve **50% cost reductions**. Expert in delivering measurable business value through advanced automation, technical leadership, and robust Infrastructure as Code (Terraform).
 
-- Developed automated trading strategies utilizing IBKR APIs.
-- Optimized portfolio rebalancing for silver bullion holdings (RCM Maple Leaf/US American Eagle).
+## TECHNICAL SKILLS
 
-# Education
-**B.Tech in Computer Science** *Graduated 2014*
+* **Languages:** Python, Java, Scala, SQL, JavaScript, HTML/CSS
+* **Data & Orchestration:** Apache Airflow, PostgreSQL, Aurora Serverless, Spark, Kafka, ETL/ELT Pipelines
+* **Cloud & DevOps:** AWS (Lambda, RDS, EMR, S3, Transfer Family), Terraform, Docker, CI/CD, GitHub Actions 
+* **Frameworks & Tools:** Flask, NLTK, Pytest, Linux/Shell Scripting, Git, JIRA
+
+## PROFESSIONAL EXPERIENCE
+
+::: {.level2}
+### ROCKET INNOVATION STUDIOS ULC | Greater Toronto Area, ON (Remote)
+**Data Engineer** | *November 2024 – July 2025*
+
+* **Project Leadership:** Led the end-to-end delivery of the Deeds and Assessments project, managing complex data requirements to integrate property sale history into the search platform.
+* **Cloud Automation:** Researched and implemented an automated ingestion strategy using **AWS Transfer Family (SFTP)**, replacing manual processes with a scalable serverless workflow.
+* **System Migration:** Orchestrated the technical transition for a **GitHub to GitHub EMU migration**, authoring critical documentation to maintain zero downtime for the engineering organization.
+* **Data Integrity:** Resolved a critical data-matching discrepancy in street name casing, remediating over **3,012 missing property listings**.
+:::
+
+::: {.level2}
+### ROCKET HOMES | Detroit, MI & Remote
+**Data Engineer / Software Engineer** | *November 2018 – November 2024*
+
+* **Cost Optimization:** Spearheaded the migration of **Aurora PostgreSQL from Serverless v1 to v2**, resulting in a **50% reduction in daily RDS costs** and annual savings of **$60,000**.
+* **Infrastructure Modernization:** Led the upgrade of **Apache Airflow from v2.0.2 to v2.8.1** and developed a local debugging environment to significantly increase developer velocity.
+* **Operational Excellence:** Automated legacy school ratings update processes, reducing a multi-day manual effort to a reliable **24-hour turnaround**.
+* **Data Reliability:** Developed a **"Dry-Run" capability** for the conformed reprocessing job, enabling pre-execution validation for high-volume data updates.
+* **Performance Engineering:** Built a custom **Image Trimmer Lambda (Python/PIL)** to replace legacy solutions, creating a more resilient and cost-effective pipeline.
+* **Framework Extension:** Enhanced the Scala mapping and normalization framework to support **array-of-structs**, enabling critical listing and media coupling updates.
+:::
+
+::: {.level2}
+### AMROCK (formerly Title Source) | Detroit, MI
+**Software Engineer - Machine Learning** | *February 2016 – November 2018*
+
+* **Machine Learning ROI:** Developed a RESTful Document Classification Service using **Logistic Regression**, achieving a **97% classification rate** and 96% accuracy.
+* **Process Automation:** Built a text clustering utility (K-Means) to automate data cleaning for training models, saving **160 hours of manual labor** per cycle.
+:::
+
+::: {.level2}
+### CHEMICAL SEMANTICS INC. | Gainesville, FL
+**Software Developer Intern** | *September 2015 – December 2015*
+
+* **Graph Optimization:** Analyzed and optimized graph resource loading, reducing processing time by **50%**.
+:::
+
+## PROJECTS & HACKATHONS
+
+* **AI Real Estate Report (May 2025 Hackathon):** Architected a **tiered multi-agent AI system** pulling data from various official sources to generate comprehensive property reports including historical permits, schools, crime, and natural disaster susceptibility.
+* **Listing Narrative AI (March 2025 Hackathon):** Implemented **Logistic Regression and SVM models** to automate listing content; established team best practices for model testing.
+
+## EDUCATION
+
+* **Master of Science in Computer Science** | University of Florida, Gainesville, FL
+* **Bachelor of Technology in Computer Science** | JIIT, Noida, India
+
+## AWARDS & LEADERSHIP
+
+* **Engineering Culture Lead:** Lead person for organizing team-building initiatives and identifying opportunities for team growth.
+* **NASA AMES Space Settlement Design:** 3rd Place Global Ranking.
+* **Why Wait 2 Challenge:** 1st Place Winner.
+* **Knowledge Asset:** Established and led weekly technical sync-ups to facilitate knowledge sharing on complex design decisions.
