@@ -11,10 +11,10 @@ format:
     theme: cosmo
     css: styles.css
     toc: false
-  pdf:
-    documentclass: article
-    geometry:
-      - top=20mm
-      - left=20mm
-      - right=20mm
-      - bottom=20mm
+  typst:
+    papersize: us-letter
+    margin:
+      x: 0.75in                 # Standard resume margins are usually 0.5" to 1.0"
+      y: 0.75in
+    section-numbering: none
+    font-size: 10pt

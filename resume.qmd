@@ -1,14 +1,5 @@
 ---
-title: "Your Name"
-format:
-  html:
-    theme: cosmo
-    css: styles.css
-  typst:
-    papersize: letter
-    margin:
-      x: 1.25in
-      y: 1.25in
+title: "Shivansh Singh"
 ---
 
 [Download PDF Resume](Resume-ShivanshSingh.pdf){.btn .btn-outline-primary .btn-sm role="button"}
@@ -16,7 +7,7 @@ format:
 # Experience
 
 ### Software Engineer | Interactive Brokers (IBKR) Trading
-*Brampton, ON | Jan 2024 – Present*
+*Toronto, ON | Jan 2024 – Present*
 
 - Developed automated trading strategies utilizing IBKR APIs.
 - Optimized portfolio rebalancing for silver bullion holdings (RCM Maple Leaf/US American Eagle).
