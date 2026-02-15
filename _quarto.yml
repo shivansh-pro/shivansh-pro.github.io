@@ -1,5 +1,6 @@
 project:
   type: website
+  output-dir: _site
 
 website:
   title: "Shivansh Singh"
@@ -8,5 +9,12 @@ website:
 format:
   html:
     theme: cosmo
+    css: styles.css
+    toc: false
   pdf:
-    output-file: "Resume - Shivansh Singh.pdf"
+    documentclass: article
+    geometry:
+      - top=20mm
+      - left=20mm
+      - right=20mm
+      - bottom=20mm
