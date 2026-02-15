@@ -2,7 +2,9 @@
 title: "Shivansh Singh"
 ---
 
+::: {.content-visible when-format="html"}
 [Download PDF Resume](Resume-ShivanshSingh.pdf){.btn .btn-outline-primary .btn-sm role="button"}
+:::
 
 # Experience
 

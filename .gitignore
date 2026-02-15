@@ -1,2 +1,10 @@
-/.quarto/
-**/*.quarto_ipynb
+# Quarto internal folders
+.quarto/
+_site/
+
+# Generated PDF (since GitHub Actions will build a fresh one)
+Resume-ShivanshSingh.pdf
+
+# OS specific
+.DS_Store
+Thumbs.db
