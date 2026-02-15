@@ -1,1 +1,1 @@
-# shivansh-pro.github.io
+![Build Status](https://github.com/shivansh-pro/shivansh-pro.github.io/actions/workflows/publish.yml/badge.svg)
