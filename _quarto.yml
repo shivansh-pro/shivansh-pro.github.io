@@ -16,5 +16,5 @@ format:
     margin:
       x: 0.75in                 # Standard resume margins are usually 0.5" to 1.0"
       y: 0.75in
-    section-numbering: none
+    section-numbering: null
     font-size: 10pt
