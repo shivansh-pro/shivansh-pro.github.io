@@ -4,6 +4,76 @@
     "href": "resume.html",
     "title": "Shivansh Singh",
     "section": "",
-    "text": "Download PDF Resume\n\nExperience\n\nSoftware Engineer | Interactive Brokers (IBKR) Trading\nToronto, ON | Jan 2024 – Present\n\nDeveloped automated trading strategies utilizing IBKR APIs.\nOptimized portfolio rebalancing for silver bullion holdings (RCM Maple Leaf/US American Eagle).\n\n\n\n\nEducation\nB.Tech in Computer Science Graduated 2014"
+    "text": "Brampton, ON | (647) 568-8868 | pro.shivansh@gmail.com\nDownload PDF Resume"
+  },
+  {
+    "objectID": "resume.html#professional-summary",
+    "href": "resume.html#professional-summary",
+    "title": "Shivansh Singh",
+    "section": "PROFESSIONAL SUMMARY",
+    "text": "PROFESSIONAL SUMMARY\nSenior-level Software and Data Engineer with 10+ years of experience architecting scalable backend systems, cloud-native data platforms, and machine learning solutions. Proven track record of leading high-stakes infrastructure migrations and optimizing cloud environments to achieve 50% cost reductions. Expert in delivering measurable business value through advanced automation, technical leadership, and robust Infrastructure as Code (Terraform)."
+  },
+  {
+    "objectID": "resume.html#technical-skills",
+    "href": "resume.html#technical-skills",
+    "title": "Shivansh Singh",
+    "section": "TECHNICAL SKILLS",
+    "text": "TECHNICAL SKILLS\n\nLanguages: Python, Java, Scala, SQL, JavaScript, HTML/CSS\nData & Orchestration: Apache Airflow, PostgreSQL, Aurora Serverless, Spark, Kafka, ETL/ELT Pipelines\nCloud & DevOps: AWS (Lambda, RDS, EMR, S3, Transfer Family), Terraform, Docker, CI/CD, GitHub Actions\nFrameworks & Tools: Flask, NLTK, Pytest, Linux/Shell Scripting, Git, JIRA"
+  },
+  {
+    "objectID": "resume.html#professional-experience",
+    "href": "resume.html#professional-experience",
+    "title": "Shivansh Singh",
+    "section": "PROFESSIONAL EXPERIENCE",
+    "text": "PROFESSIONAL EXPERIENCE\n\nROCKET INNOVATION STUDIOS ULC | Greater Toronto Area, ON (Remote)\nData Engineer | November 2024 – July 2025\n\nProject Leadership: Led the end-to-end delivery of the Deeds and Assessments project, managing complex data requirements to integrate property sale history into the search platform.\nCloud Automation: Researched and implemented an automated ingestion strategy using AWS Transfer Family (SFTP), replacing manual processes with a scalable serverless workflow.\nSystem Migration: Orchestrated the technical transition for a GitHub to GitHub EMU migration, authoring critical documentation to maintain zero downtime for the engineering organization.\nData Integrity: Resolved a critical data-matching discrepancy in street name casing, remediating over 3,012 missing property listings.\n\n\n\nROCKET HOMES | Detroit, MI & Remote\nData Engineer / Software Engineer | November 2018 – November 2024\n\nCost Optimization: Spearheaded the migration of Aurora PostgreSQL from Serverless v1 to v2, resulting in a 50% reduction in daily RDS costs and annual savings of $60,000.\nInfrastructure Modernization: Led the upgrade of Apache Airflow from v2.0.2 to v2.8.1 and developed a local debugging environment to significantly increase developer velocity.\nOperational Excellence: Automated legacy school ratings update processes, reducing a multi-day manual effort to a reliable 24-hour turnaround.\nData Reliability: Developed a “Dry-Run” capability for the conformed reprocessing job, enabling pre-execution validation for high-volume data updates.\nPerformance Engineering: Built a custom Image Trimmer Lambda (Python/PIL) to replace legacy solutions, creating a more resilient and cost-effective pipeline.\nFramework Extension: Enhanced the Scala mapping and normalization framework to support array-of-structs, enabling critical listing and media coupling updates.\n\n\n\nAMROCK (formerly Title Source) | Detroit, MI\nSoftware Engineer - Machine Learning | February 2016 – November 2018\n\nMachine Learning ROI: Developed a RESTful Document Classification Service using Logistic Regression, achieving a 97% classification rate and 96% accuracy.\nProcess Automation: Built a text clustering utility (K-Means) to automate data cleaning for training models, saving 160 hours of manual labor per cycle.\n\n\n\nCHEMICAL SEMANTICS INC. | Gainesville, FL\nSoftware Developer Intern | September 2015 – December 2015\n\nGraph Optimization: Analyzed and optimized graph resource loading, reducing processing time by 50%."
+  },
+  {
+    "objectID": "resume.html#rocket-innovation-studios-ulc-greater-toronto-area-on-remote",
+    "href": "resume.html#rocket-innovation-studios-ulc-greater-toronto-area-on-remote",
+    "title": "Shivansh Singh",
+    "section": "",
+    "text": "ROCKET INNOVATION STUDIOS ULC | Greater Toronto Area, ON (Remote)\nData Engineer | November 2024 – July 2025\n\nProject Leadership: Led the end-to-end delivery of the Deeds and Assessments project, managing complex data requirements to integrate property sale history into the search platform.\nCloud Automation: Researched and implemented an automated ingestion strategy using AWS Transfer Family (SFTP), replacing manual processes with a scalable serverless workflow.\nSystem Migration: Orchestrated the technical transition for a GitHub to GitHub EMU migration, authoring critical documentation to maintain zero downtime for the engineering organization.\nData Integrity: Resolved a critical data-matching discrepancy in street name casing, remediating over 3,012 missing property listings."
+  },
+  {
+    "objectID": "resume.html#rocket-homes-detroit-mi-remote",
+    "href": "resume.html#rocket-homes-detroit-mi-remote",
+    "title": "Shivansh Singh",
+    "section": "",
+    "text": "ROCKET HOMES | Detroit, MI & Remote\nData Engineer / Software Engineer | November 2018 – November 2024\n\nCost Optimization: Spearheaded the migration of Aurora PostgreSQL from Serverless v1 to v2, resulting in a 50% reduction in daily RDS costs and annual savings of $60,000.\nInfrastructure Modernization: Led the upgrade of Apache Airflow from v2.0.2 to v2.8.1 and developed a local debugging environment to significantly increase developer velocity.\nOperational Excellence: Automated legacy school ratings update processes, reducing a multi-day manual effort to a reliable 24-hour turnaround.\nData Reliability: Developed a “Dry-Run” capability for the conformed reprocessing job, enabling pre-execution validation for high-volume data updates.\nPerformance Engineering: Built a custom Image Trimmer Lambda (Python/PIL) to replace legacy solutions, creating a more resilient and cost-effective pipeline.\nFramework Extension: Enhanced the Scala mapping and normalization framework to support array-of-structs, enabling critical listing and media coupling updates."
+  },
+  {
+    "objectID": "resume.html#amrock-formerly-title-source-detroit-mi",
+    "href": "resume.html#amrock-formerly-title-source-detroit-mi",
+    "title": "Shivansh Singh",
+    "section": "",
+    "text": "AMROCK (formerly Title Source) | Detroit, MI\nSoftware Engineer - Machine Learning | February 2016 – November 2018\n\nMachine Learning ROI: Developed a RESTful Document Classification Service using Logistic Regression, achieving a 97% classification rate and 96% accuracy.\nProcess Automation: Built a text clustering utility (K-Means) to automate data cleaning for training models, saving 160 hours of manual labor per cycle."
+  },
+  {
+    "objectID": "resume.html#chemical-semantics-inc.-gainesville-fl",
+    "href": "resume.html#chemical-semantics-inc.-gainesville-fl",
+    "title": "Shivansh Singh",
+    "section": "",
+    "text": "CHEMICAL SEMANTICS INC. | Gainesville, FL\nSoftware Developer Intern | September 2015 – December 2015\n\nGraph Optimization: Analyzed and optimized graph resource loading, reducing processing time by 50%."
+  },
+  {
+    "objectID": "resume.html#projects-hackathons",
+    "href": "resume.html#projects-hackathons",
+    "title": "Shivansh Singh",
+    "section": "PROJECTS & HACKATHONS",
+    "text": "PROJECTS & HACKATHONS\n\nAI Real Estate Report (May 2025 Hackathon): Architected a tiered multi-agent AI system pulling data from various official sources to generate comprehensive property reports including historical permits, schools, crime, and natural disaster susceptibility.\nListing Narrative AI (March 2025 Hackathon): Implemented Logistic Regression and SVM models to automate listing content; established team best practices for model testing."
+  },
+  {
+    "objectID": "resume.html#education",
+    "href": "resume.html#education",
+    "title": "Shivansh Singh",
+    "section": "EDUCATION",
+    "text": "EDUCATION\n\nMaster of Science in Computer Science | University of Florida, Gainesville, FL\nBachelor of Technology in Computer Science | JIIT, Noida, India"
+  },
+  {
+    "objectID": "resume.html#awards-leadership",
+    "href": "resume.html#awards-leadership",
+    "title": "Shivansh Singh",
+    "section": "AWARDS & LEADERSHIP",
+    "text": "AWARDS & LEADERSHIP\n\nEngineering Culture Lead: Lead person for organizing team-building initiatives and identifying opportunities for team growth.\nNASA AMES Space Settlement Design: 3rd Place Global Ranking.\nWhy Wait 2 Challenge: 1st Place Winner.\nKnowledge Asset: Established and led weekly technical sync-ups to facilitate knowledge sharing on complex design decisions."
   }
 ]
