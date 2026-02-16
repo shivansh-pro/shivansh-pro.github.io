@@ -1,6 +1,8 @@
-# Quarto internal folders
+# Quarto internal files and folders
 .quarto/
 _site/
+*.tex
+*.pdf
 
 # Generated PDF (since GitHub Actions will build a fresh one)
 Resume-ShivanshSingh.pdf
