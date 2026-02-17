@@ -12,7 +12,7 @@ format:
 ---
 
 ::: {style="text-align: center; margin-bottom: 20px;"}
-📍 Brampton, ON | 📞 +1-647-568-8868 | 📧 [pro.shivansh@gmail.com](mailto:pro.shivansh@gmail.com) | 🔗 [LinkedIn](https://www.linkedin.com/in/shivanshsingh8/)
+📞 +1-647-568-8868 | 📧 [pro.shivansh@gmail.com](mailto:pro.shivansh@gmail.com) | 🔗 [LinkedIn](https://www.linkedin.com/in/shivanshsingh8/)
 :::
 
 ::: {.content-visible when-format="html"}
@@ -23,35 +23,41 @@ format:
 
 ## SUMMARY OF EXPERIENCE AND ACHIEVEMENTS
 
-* **Senior Technical Expertise:** Over **10 years of experience** specializing in building scalable backend systems, high-performance data platforms, and integrated machine learning solutions.
-* **Cloud Infrastructure Leadership:** Led high-stakes migrations, including upgrading Aurora PostgreSQL from Serverless v1 to v2, which **directly reduced daily RDS costs by 50% ($60,000 annual savings)**.
-* **Operational Excellence:** Modernized core orchestration by leading the **Apache Airflow upgrade (v2.0.2 to v2.8.1)** and developed custom local debugging environments to accelerate developer velocity.
-* **Data Integrity & Scale:** Expert at remediating large-scale data discrepancies; resolved case-sensitivity issues to **restore 3,012 missing property listings** and managed reprocessing for **over 1 million records**.
-* **Machine Learning ROI:** Architected a RESTful Document Classification Service achieving a **97% classification rate and 96% accuracy**, while automating data cleaning to **save 160 manual labor hours** per cycle.
+* **Technical Leadership:** Over **10 years of experience** architecting high-performance data platforms and backend systems; served as **SME for Postgres and Terraform** migrations.
+* **Cloud Infrastructure & Cost Optimization:** Spearheaded enterprise-level initiatives including an Aurora Serverless v1 to v2 migration and AWS EMR cluster optimization, resulting in a combined **$360,000+ in annual cost reductions**.
+* **Data Engineering at Scale:** Architected ETL pipelines using **Spark and Airflow** that reduced data delivery time by **83% (from 1 hour to <10 minutes)** while managing high-volume updates for **1M+ records**.
+* **Architectural Modernization:** Led the transition from **CloudFormation to Terraform** and upgraded core orchestration (Airflow v2.8.1), increasing developer velocity by **25%** and reducing maintenance overhead by **30%**.
+* **Strategic Stakeholder Management:** Expert at facilitating technical roadmaps between Product Owners, Data analysts, Infrasec, and Senior Management to support major business milestones, including **50-state market expansion**.
 
 ## EXPERIENCE
 
 ::: {.experience-header}
-**ROCKET INNOVATION STUDIOS ULC | Greater Toronto Area, ON**
+**ROCKET COMPANIES (Rocket Innovation Studio & Rocket Homes) | Detroit, MI & Remote**
 :::
-*Data Engineer* | *Nov 2024 – Jul 2025*
+*Data Engineer / Software Engineer* | *Nov 2018 – Jul 2025*
 
-* **Project Management:** Directed the end-to-end execution of the Deeds and Assessments project, integrating complex property sale history data into the search store.
-* **Cloud Automation:** Researched and deployed an automated data ingestion framework using **AWS Transfer Family (SFTP)**, eliminating manual file-handling bottlenecks.
-* **Data Integrity Remediation:** Identified and resolved a critical data-matching discrepancy in street name casing, **remediating over 3,012 missing property listings**.
-* **System Migration:** Orchestrated the **GitHub to GitHub EMU migration**, authoring critical documentation to maintain zero downtime for the organization.
+**Infrastructure, IaC & Security**
 
-::: {.experience-header}
-**ROCKET HOMES | Detroit, MI & Remote**
-:::
-*Data Engineer / Software Engineer* | *Nov 2018 – Nov 2024*
+* **Cloud Cost Transformation:** Orchestrated the migration of Aurora PostgreSQL to Serverless v2 and optimized AWS EMR applications, delivering a combined **$360,000 in annual savings** and a **50% reduction in daily RDS costs**.
+* **Enterprise IaC Migration:** Led an engineering team in migrating from **CloudFormation to Terraform**; redesigned regional configurations to enhance multi-region scalability and long-term maintainability in collaboration with Infrasec.
+* **Modernization & Velocity:** Directed the upgrade of **Apache Airflow (v2.8.1)** and developed a local debugging environment, increasing developer velocity by **25%** and cutting deployment times to **<10 minutes** via **GitHub Actions**.
+* **Security & Governance:** Enforced **Least Privilege IAM policies** across AWS services and implemented a comprehensive data governance model, ensuring security best practices and data trust during a **50-state expansion**.
+* **Zero-Downtime Migration:** Orchestrated a secure **GitHub to GitHub EMU migration**, collaborating with Infrasec Engineers to author enterprise-level documentation while maintaining 100% platform uptime.
 
-* **Cost Optimization:** Spearheaded the migration of Aurora PostgreSQL from Serverless v1 to v2, resulting in a **50% reduction in daily RDS costs** and **annual savings of $60,000**.
-* **Infrastructure Modernization:** Led the upgrade of **Apache Airflow from v2.0.2 to v2.8.1** and developed a local debugging environment to significantly increase developer velocity.
-* **Operational Excellence:** Automated the legacy school ratings update process, transforming a multi-day manual task into a reliable **24-hour turnaround**.
-* **Data Reliability:** Developed a **"Dry-Run" capability** for the conformed reprocessing job, enabling pre-execution validation for high-volume data updates of **1M+ records**.
+**Data Engineering & Product Impact**
+
+* **High-Performance ETL:** Architected Spark-based pipelines that slashed data delivery latency from **1 hour to under 10 minutes**; redesigned architecture to reduce ongoing maintenance by **30%**.
+* **Scalable Infrastructure:** Played a pivotal role in Rocket’s national expansion by building robust data quality frameworks, including advanced logging, alerting, and monitoring systems.
+* **Project Leadership:** Directed the end-to-end SDLC for the **Deeds and Assessments project**, integrating complex property sale history and resolving discrepancies to **remediate 3,000+ missing listings**.
+* **Reliability Engineering:** Developed a **"Dry-Run" validation capability** for conformed reprocessing jobs, enabling risk-free execution for high-volume updates of **1M+ records**.
+* **Operational Excellence:** Automated legacy school ratings update process, cutting down the turnaround time by **67%**.
 * **Performance Engineering:** Engineered a custom **Image Trimmer Lambda (Python/PIL)** to replace legacy solutions, resulting in a more resilient and cost-effective pipeline.
-* **Infrastructure as Code:** Led regional restructuring of Terraform configurations, improving long-term maintainability and multi-region scalability.
+
+**Technical Leadership & Collaboration**
+
+* **SME & Problem Solver:** Acted as the primary **SME for Postgres and Terraform**, serving as the definitive resource for complex solution design and critical production root-cause analysis.
+* **Mentorship:** Mentored junior engineers and new hires on **Python and AWS**-based data platforms, authoring technical onboarding materials to reduce recurring issues.
+* **Stakeholder Management:** Facilitated strategic alignment between business partners, data analysts, and senior management throughout the software development lifecycle in an **Agile/Scrum** environment.
 
 ::: {.experience-header}
 **AMROCK (formerly Title Source) | Detroit, MI**
@@ -77,8 +83,8 @@ format:
 ## TECHNICAL SKILLS
 
 * **Languages:** Python, Java, SQL, JavaScript, HTML/CSS
-* **Data & Orchestration:** Apache Airflow, PostgreSQL, Aurora Serverless, Kafka, ETL/ELT Pipelines
-* **Cloud & DevOps:** AWS Tools(Lambda, RDS, EMR, S3, DynamoDB, Athena, Kinesis), Terraform, Docker, CI/CD, GitHub Actions
+* **Data & Orchestration:** Apache Airflow, Kafka, Elasticsearch, ETL/ELT Pipelines
+* **Cloud & DevOps:** AWS Tools(Lambda, RDS, EMR, S3, DynamoDB, Athena, Kinesis, SQS, SNS), Terraform, Docker, CI/CD, GitHub Actions
 * **Tools & Frameworks:** Git, JIRA, Flask, NLTK, Pytest, Linux/Shell Scripting
 
 ## HACKATHONS
@@ -89,6 +95,5 @@ format:
 
 ## AWARDS AND LEADERSHIP
 
-* **Subject Matter Expert (Postgres):** Recognized as a technical lead for troubleshooting and providing guidance in relational database optimization.
 * **Engineering Culture Lead:** Organized team-building initiatives and led quarterly sync-ups to facilitate cross-teams knowledge sharing.
 * **NASA AMES Space Settlement Design 2008:** 3rd Place Global Ranking.
