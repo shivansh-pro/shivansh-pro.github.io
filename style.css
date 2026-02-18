@@ -1,107 +1,158 @@
 /* style.css */
+@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=DM+Sans:ital,opsz,wght@0,9..40,300;0,9..40,400;0,9..40,500;0,9..40,600;1,9..40,300&display=swap');
+
+:root {
+  --ink: #1a1a1a;
+  --muted: #666;
+  --rule: #d0d0d0;
+  --accent: #c0392b;
+  --bg: #fafaf8;
+  --card: #fff;
+}
+
+*, *::before, *::after { box-sizing: border-box; }
+
 body {
-    font-family: 'Inter', sans-serif;
-    line-height: 1.5;
-    color: #333;
-    /* Expands to cover more screen on PC/Laptop */
-    width: 94%;
-    max-width: 1400px;
-    margin: 0 auto;
-    padding: 20px 40px;
+  font-family: 'DM Sans', sans-serif;
+  font-weight: 300;
+  line-height: 1.65;
+  color: var(--ink);
+  background: var(--bg);
+  width: 92%;
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 48px 0 80px;
 }
 
-/* Centers the YAML title (Name) in HTML */
-header.quarto-title-block .title {
-    text-align: center;
-    font-size: 2.8rem;
-    font-weight: 800;
-    margin-bottom: 0.2rem;
-    color: #000;
+/* ── Name / Title ── */
+header.quarto-title-block .title,
+h1.title {
+  text-align: center !important;
+  font-family: 'DM Serif Display', Georgia, serif;
+  font-size: 3.2rem;
+  font-weight: 400;
+  letter-spacing: 0.04em;
+  color: var(--ink);
+  margin-bottom: 0.1rem;
 }
 
-/* Centers contact info in HTML */
+/* ── Contact line ── */
 .quarto-title-authors {
-    display: flex;
-    justify-content: center;
-    flex-wrap: wrap;
-    gap: 15px;
-    margin-top: -15px;
-    margin-bottom: 25px;
-    font-size: 1rem;
-    color: #444;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 6px 18px;
+  margin-top: -10px;
+  margin-bottom: 28px;
+  font-size: 0.88rem;
+  font-weight: 400;
+  color: var(--muted);
+  letter-spacing: 0.02em;
 }
 
-/* Header Container for the Action Button */
+/* Remove default Quarto title block bottom border */
+header.quarto-title-block,
+.quarto-title-block {
+  border-bottom: none !important;
+  padding-bottom: 0 !important;
+  margin-bottom: 0 !important;
+}
+
+/* ── Download button strip ── */
 .header-container {
-    display: flex;
-    justify-content: center;
-    border-bottom: 2px solid #333;
-    padding-bottom: 15px;
-    margin-bottom: 25px;
-}
-
-h2 {
-    font-size: 1.35rem;
-    color: #000;
-    text-transform: uppercase;
-    letter-spacing: 1.2px;
-    border-bottom: 1px solid #333;
-    padding-bottom: 5px;
-    margin-top: 35px;
-    margin-bottom: 15px;
-}
-
-.experience-header {
-    display: flex;
-    justify-content: space-between;
-    font-weight: 700;
-    margin-top: 20px;
-    font-size: 1.15rem;
-}
-
-.job-title {
-    font-style: italic;
-    color: #555;
-    margin-bottom: 10px;
-    font-weight: 500;
+  display: flex;
+  justify-content: center;
+  padding: 14px 0;
+  margin-bottom: 40px;
 }
 
 .btn {
-    text-decoration: none;
-    padding: 10px 20px;
-    border: 2px solid #333;
-    color: #333;
-    border-radius: 4px;
-    font-size: 0.9rem;
-    font-weight: 700;
-    transition: all 0.2s ease;
-    white-space: nowrap;
+  text-decoration: none;
+  padding: 8px 22px;
+  border: 1.5px solid var(--ink);
+  color: var(--ink);
+  border-radius: 2px;
+  font-size: 0.78rem;
+  font-weight: 600;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  transition: background 0.18s, color 0.18s;
 }
-
 .btn:hover {
-    background-color: #333;
-    color: #fff;
+  background: var(--ink);
+  color: #fff;
 }
 
-/* Mobile Responsiveness */
-@media (max-width: 768px) {
-    header.quarto-title-block .title {
-        font-size: 2.2rem;
-    }
-    .experience-header {
-        flex-direction: column;
-    }
-    body {
-        width: 100%;
-        padding: 20px 15px;
-    }
+/* ── Section headings ── */
+h2 {
+  font-family: 'DM Sans', sans-serif;
+  font-size: 0.9rem;
+  font-weight: 600;
+  color: var(--accent);
+  text-transform: uppercase;
+  letter-spacing: 0.18em;
+  margin-top: 44px;
+  margin-bottom: 16px;
+  padding-bottom: 6px;
+  border-bottom: 1px solid var(--rule);
 }
 
-/* Print settings to tighten PDF top margin */
+/* ── Experience entry ── */
+.experience-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  margin-top: 28px;
+  font-family: 'DM Serif Display', Georgia, serif;
+  font-size: 1.08rem;
+  font-weight: 400;
+  color: var(--ink);
+}
+
+.job-title {
+  font-style: italic;
+  color: var(--muted);
+  margin-bottom: 10px;
+  font-size: 0.9rem;
+  font-weight: 300;
+}
+
+em {
+  color: var(--muted);
+  font-style: normal;
+}
+
+/* Italic inside job-title stays italic */
+.job-title em { font-style: italic; }
+
+/* ── Lists ── */
+ul {
+  margin: 6px 0 10px 0;
+  padding-left: 1.1em;
+}
+li {
+  margin-bottom: 5px;
+  font-size: 0.91rem;
+}
+li strong {
+  font-weight: 600;
+  color: var(--ink);
+}
+
+/* ── Sub-section bold labels (Cloud Infrastructure, etc.) ── */
+p > strong:only-child,
+p > strong:first-child {
+  display: inline-block;
+}
+
+/* ── Mobile ── */
+@media (max-width: 680px) {
+  body { width: 100%; padding: 28px 18px 60px; }
+  header.quarto-title-block .title { font-size: 2.2rem; }
+  .experience-header { flex-direction: column; gap: 2px; }
+}
+
+/* ── Print / PDF export ── */
 @media print {
-    body {
-        max-width: 800px;
-        width: 100%;
-        padding: 0;
-    }
+  body { max-width: 100%; width: 100%; padding: 0; background: white; }
 }

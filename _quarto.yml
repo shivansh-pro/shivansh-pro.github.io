@@ -8,13 +8,14 @@ website:
 
 format:
   html:
-    theme: cosmo
+    theme: none
     css: style.css
     toc: false
   typst:
     papersize: us-letter
     margin:
-      x: 0.75in                 # Standard resume margins are usually 0.5" to 1.0"
-      y: 0.75in
+      top: 0.45in
+      bottom: 0.45in
+      x: 0.75in
     font-size: 10pt
     output-file: "Resume-ShivanshSingh.pdf"
