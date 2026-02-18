@@ -15,7 +15,7 @@ format:
 
 ::: {.content-visible when-format="html"}
 ::: {style="text-align: center; margin-bottom: 8px; color: #666; font-size: 0.88rem; letter-spacing: 0.02em;"}
-+1-647-568-8868 | [pro.shivansh@gmail.com](mailto:pro.shivansh@gmail.com) | [LinkedIn](https://www.linkedin.com/in/shivanshsingh8/)
+📞 +1-647-568-8868 | 📧 [pro.shivansh@gmail.com](mailto:pro.shivansh@gmail.com) | 🔗 [LinkedIn](https://www.linkedin.com/in/shivanshsingh8/)
 :::
 :::
 
