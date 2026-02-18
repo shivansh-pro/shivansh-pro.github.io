@@ -30,8 +30,12 @@ jobs:
 
       - name: Copy PDF and DOCX into _site for download
         run: |
-          cp Resume-ShivanshSingh.pdf _site/Resume-ShivanshSingh.pdf
-          cp Resume-ShivanshSingh.docx _site/Resume-ShivanshSingh.docx
+          find . -name "Resume-ShivanshSingh.*" ! -path "./_site/*" 2>/dev/null
+          PDF=$(find . -name "Resume-ShivanshSingh.pdf" ! -path "./_site/*" | head -1)
+          DOCX=$(find . -name "Resume-ShivanshSingh.docx" ! -path "./_site/*" | head -1)
+          mkdir -p _site
+          cp "$PDF" _site/Resume-ShivanshSingh.pdf
+          cp "$DOCX" _site/Resume-ShivanshSingh.docx
 
       - name: Publish to GitHub Pages
         uses: quarto-dev/quarto-actions/publish@v2
