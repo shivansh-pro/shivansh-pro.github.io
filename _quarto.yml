@@ -17,7 +17,7 @@ format:
       top: 0.45in
       bottom: 0.45in
       x: 0.75in
-    font-size: 10pt
+    font-size: 11pt
     output-file: "Resume-ShivanshSingh.pdf"
   docx:
     reference-doc: reference.docx
