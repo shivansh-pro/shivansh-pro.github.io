@@ -15,7 +15,8 @@
 body {
   font-family: 'DM Sans', sans-serif;
   font-weight: 300;
-  line-height: 1.65;
+  font-size: 1.05rem;
+  line-height: 1.7;
   color: var(--ink);
   background: var(--bg);
   width: 92%;
@@ -44,7 +45,7 @@ h1.title {
   gap: 6px 18px;
   margin-top: -10px;
   margin-bottom: 28px;
-  font-size: 0.88rem;
+  font-size: 0.95rem;
   font-weight: 400;
   color: var(--muted);
   letter-spacing: 0.02em;
@@ -62,6 +63,8 @@ header.quarto-title-block,
 .header-container {
   display: flex;
   justify-content: center;
+  gap: 14px;
+  border-bottom: 1px solid var(--rule);
   padding: 14px 0;
   margin-bottom: 40px;
 }
@@ -86,8 +89,8 @@ header.quarto-title-block,
 /* ── Section headings ── */
 h2 {
   font-family: 'DM Sans', sans-serif;
-  font-size: 0.9rem;
-  font-weight: 600;
+  font-size: 1rem;
+  font-weight: 700;
   color: var(--accent);
   text-transform: uppercase;
   letter-spacing: 0.18em;
@@ -97,15 +100,15 @@ h2 {
   border-bottom: 1px solid var(--rule);
 }
 
-/* ── Experience entry ── */
+/* ── Experience entry (company name) ── */
 .experience-header {
   display: flex;
   justify-content: space-between;
   align-items: baseline;
   margin-top: 28px;
-  font-family: 'DM Serif Display', Georgia, serif;
-  font-size: 1.08rem;
-  font-weight: 400;
+  font-family: 'DM Sans', sans-serif;
+  font-size: 0.95rem;
+  font-weight: 600;
   color: var(--ink);
 }
 
@@ -113,7 +116,7 @@ h2 {
   font-style: italic;
   color: var(--muted);
   margin-bottom: 10px;
-  font-size: 0.9rem;
+  font-size: 0.95rem;
   font-weight: 300;
 }
 
@@ -132,7 +135,7 @@ ul {
 }
 li {
   margin-bottom: 5px;
-  font-size: 0.91rem;
+  font-size: 1rem;
 }
 li strong {
   font-weight: 600;
