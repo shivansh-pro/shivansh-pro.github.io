@@ -6,14 +6,27 @@ format:
   typst:
     papersize: us-letter
     margin:
-      top: 0.2in # Tightened top margin for PDF
-      bottom: 0.2in
+      top: 0.45in
+      bottom: 0.45in
       x: 0.75in
+    font-size: 10pt
+    output-file: "Resume-ShivanshSingh.pdf"
 ---
 
-::: {style="text-align: center; margin-bottom: 20px;"}
-Phone: +1-647-568-8868 | Email: [pro.shivansh@gmail.com](mailto:pro.shivansh@gmail.com) | [LinkedIn](https://www.linkedin.com/in/shivanshsingh8/)
+::: {.content-visible when-format="html"}
+::: {style="text-align: center; margin-bottom: 8px; color: #666; font-size: 0.88rem; letter-spacing: 0.02em;"}
++1-647-568-8868 | [pro.shivansh@gmail.com](mailto:pro.shivansh@gmail.com) | [LinkedIn](https://www.linkedin.com/in/shivanshsingh8/)
 :::
+:::
+
+```{=typst}
+#align(center)[
+  #text(size: 10pt)[+1-647-568-8868 | pro.shivansh\@gmail.com | linkedin.com/in/shivanshsingh8]
+]
+#v(4pt)
+#line(length: 100%, stroke: 0.5pt)
+#v(4pt)
+```
 
 ::: {.content-visible when-format="html"}
 <div class="header-container">
@@ -55,7 +68,6 @@ Results-driven Data / Software Engineer with 10+ years of experience architectin
 * **Process Automation:** Automated legacy school ratings update pipeline, reducing turnaround time by 67%.
 * **Performance Engineering:** Engineered a custom Image Trimmer Lambda (Python/PIL) replacing a legacy solution, resulting in a more resilient and cost-effective image processing pipeline.
 
-
 **Technical Leadership & Mentorship**
 
 * **Subject Matter Expert:** Served as primary SME for PostgreSQL and Terraform migrations, providing definitive guidance on complex solution design and production root-cause analysis.
@@ -69,7 +81,7 @@ Results-driven Data / Software Engineer with 10+ years of experience architectin
 *Software Engineer - Machine Learning* | *Feb 2016 - Nov 2018*
 
 * **ML System Architecture:** Designed and deployed a RESTful Document Classification Service using Naive Bayes, achieving a 97% classification rate and 96% accuracy in production.
-* **Process Automation:** Build a text clustering utility (K-Means) to automate data cleaning, saving 160+ hours of manual labor per project cycle.
+* **Process Automation:** Built a text clustering utility (K-Means) to automate data cleaning, saving 160+ hours of manual labor per project cycle.
 * **Production Engineering:** Pioneered the company's first model-to-production pipeline by architecting Flask microservices, enabling deployment of ML models to live environments for the first time in company history.
 
 ::: {.experience-header}
@@ -81,8 +93,8 @@ Results-driven Data / Software Engineer with 10+ years of experience architectin
 
 ## EDUCATION
 
-* **Master of Science in Computer Science - 2015** - University of Florida, Gainesville, FL [GPA: 3.8/4.0]
-* **Bachelor of Technology in Computer Science - 2014** - JIIT, Noida, India [GPA: 8.5/10.0]
+* **Master of Science in Computer Science - 2015** | University of Florida, Gainesville, FL | GPA: 3.8/4.0
+* **Bachelor of Technology in Computer Science - 2014** | JIIT, Noida, India | GPA: 8.5/10.0
 
 ## PROJECTS & HACKATHONS
 
