@@ -11,6 +11,9 @@ format:
       x: 0.75in
     font-size: 10pt
     output-file: "Resume-ShivanshSingh.pdf"
+  docx:
+    reference-doc: reference.docx
+    output-file: "Resume-ShivanshSingh.docx"
 ---
 
 ::: {.content-visible when-format="html"}
@@ -28,9 +31,16 @@ format:
 #v(4pt)
 ```
 
+::: {.content-visible when-format="docx"}
+::: {custom-style="centered"}
++1-647-568-8868 | pro.shivansh@gmail.com | linkedin.com/in/shivanshsingh8
+:::
+:::
+
 ::: {.content-visible when-format="html"}
 <div class="header-container">
-  <a href="Resume-ShivanshSingh.pdf" class="btn">Download PDF Resume</a>
+  <a href="Resume-ShivanshSingh.pdf" class="btn">Download Resume - PDF</a>
+  <a href="Resume-ShivanshSingh.docx" class="btn">Download Resume - DOCX (Word)</a>
 </div>
 :::
 
@@ -47,10 +57,25 @@ Results-driven Data / Software Engineer with 10+ years of experience architectin
 
 ## EXPERIENCE
 
+::: {.content-visible when-format="html"}
 ::: {.experience-header}
 **ROCKET COMPANIES (Rocket Innovation Studio & Rocket Homes) | Detroit, MI & Toronto (Remote)**
 :::
 *Data Engineer / Software Engineer* | *Nov 2018 - Jul 2025*
+:::
+
+::: {.content-visible when-format="docx"}
+### ROCKET COMPANIES (Rocket Innovation Studio & Rocket Homes) | Detroit, MI & Toronto (Remote)
+
+#### Data Engineer / Software Engineer | Nov 2018 - Jul 2025
+:::
+
+```{=typst}
+#text(weight: "bold")[ROCKET COMPANIES (Rocket Innovation Studio & Rocket Homes) | Detroit, MI & Toronto (Remote)]
+#linebreak()
+#text(style: "italic", fill: rgb("#555555"))[Data Engineer / Software Engineer | Nov 2018 - Jul 2025]
+#v(4pt)
+```
 
 **Cloud Infrastructure & Cost Optimization**
 
@@ -75,19 +100,49 @@ Results-driven Data / Software Engineer with 10+ years of experience architectin
 * **Stakeholder Management:** Facilitated strategic alignment between Product Owners, Data Analysts, Infrastructure and Security teams, and senior management across the full SDLC in an Agile/Scrum environment.
 * **Engineering Culture Lead:** Organized team-building initiatives and led quarterly sync-ups to facilitate cross-teams knowledge sharing.
 
+::: {.content-visible when-format="html"}
 ::: {.experience-header}
 **AMROCK (formerly Title Source) | Detroit, MI**
 :::
 *Software Engineer - Machine Learning* | *Feb 2016 - Nov 2018*
+:::
+
+::: {.content-visible when-format="docx"}
+### AMROCK (formerly Title Source) | Detroit, MI
+
+#### Software Engineer - Machine Learning | Feb 2016 - Nov 2018
+:::
+
+```{=typst}
+#text(weight: "bold")[AMROCK (formerly Title Source) | Detroit, MI]
+#linebreak()
+#text(style: "italic", fill: rgb("#555555"))[Software Engineer - Machine Learning | Feb 2016 - Nov 2018]
+#v(4pt)
+```
 
 * **ML System Architecture:** Designed and deployed a RESTful Document Classification Service using Naive Bayes, achieving a 97% classification rate and 96% accuracy in production.
 * **Process Automation:** Built a text clustering utility (K-Means) to automate data cleaning, saving 160+ hours of manual labor per project cycle.
 * **Production Engineering:** Pioneered the company's first model-to-production pipeline by architecting Flask microservices, enabling deployment of ML models to live environments for the first time in company history.
 
+::: {.content-visible when-format="html"}
 ::: {.experience-header}
 **CHEMICAL SEMANTICS INC. | Gainesville, FL**
 :::
 *Software Developer Intern* | *Sep 2015 - Dec 2015*
+:::
+
+::: {.content-visible when-format="docx"}
+### CHEMICAL SEMANTICS INC. | Gainesville, FL
+
+#### Software Developer Intern | Sep 2015 - Dec 2015
+:::
+
+```{=typst}
+#text(weight: "bold")[CHEMICAL SEMANTICS INC. | Gainesville, FL]
+#linebreak()
+#text(style: "italic", fill: rgb("#555555"))[Software Developer Intern | Sep 2015 - Dec 2015]
+#v(4pt)
+```
 
 * **Performance Optimization:** Analyzed and refactored graph rendering solutions, eliminating redundancies and reducing resource loading times by 50%.
 
