@@ -16,14 +16,22 @@ jobs:
       - name: Install Quarto
         uses: quarto-dev/quarto-actions/setup@v2
 
-      - name: Install TinyTeX (for PDF generation)
+      - name: Install Typst (for PDF generation)
         run: |
-          quarto install tool tinytex
+          curl -LO https://github.com/typst/typst/releases/latest/download/typst-x86_64-unknown-linux-musl.tar.xz
+          tar -xf typst-x86_64-unknown-linux-musl.tar.xz
+          sudo mv typst-x86_64-unknown-linux-musl/typst /usr/local/bin/typst
 
       - name: Render Resume
         run: |
           quarto render resume.qmd --to html
-          quarto render resume.qmd --to pdf
+          quarto render resume.qmd --to typst
+          quarto render resume.qmd --to docx
+
+      - name: Copy PDF and DOCX into _site for download
+        run: |
+          cp Resume-ShivanshSingh.pdf _site/Resume-ShivanshSingh.pdf
+          cp Resume-ShivanshSingh.docx _site/Resume-ShivanshSingh.docx
 
       - name: Publish to GitHub Pages
         uses: quarto-dev/quarto-actions/publish@v2
