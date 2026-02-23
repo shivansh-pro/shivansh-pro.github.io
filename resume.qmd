@@ -80,7 +80,7 @@ Results-driven Data / Software Engineer with 10+ years of experience architectin
 **Cloud Infrastructure & Cost Optimization**
 
 * **Cost Savings:** Orchestrated Aurora PostgreSQL migration to Serverless v2 and optimized AWS EMR clusters, delivering $360,000 in combined annual savings and a 50% reduction in daily RDS costs.
-* **Infrastructure as Code:** Led full enterprise migration from CloudFormation to Terraform; redesigned regional configurations for multi-region scalability, maintainability, and Infrastructure and Security compliance.
+* **Infrastructure as Code:** Co-lead full enterprise migration from CloudFormation to Terraform; redesigned configurations for scalability, maintainability, and Infrastructure and Security compliance.
 * **Modernization & CI/CD Upgrades:** Directed Apache Airflow upgrade to v2.8.1 and built a local debugging environment, increasing developer velocity by 25% and reducing deployment times to under 10 minutes via GitHub Actions.
 * **Zero-Downtime Migration:** Executed secure GitHub to GitHub EMU migration in collaboration with Infrastructure and Security teams, authoring enterprise-level documentation while maintaining 100% platform uptime.
 
