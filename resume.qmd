@@ -27,11 +27,12 @@ format:
 :::
 
 ```{=typst}
+#v(-2pt)
 #align(center)[
-  #text(size: 9pt)[pro.shivansh\@gmail.com #h(6pt) | #h(6pt) github.com/shivansh-pro #h(6pt) | #h(6pt) linkedin.com/in/shivanshsingh8]
+  #text(size: 9.5pt)[pro.shivansh\@gmail.com #h(6pt) | #h(6pt) github.com/shivansh-pro #h(6pt) | #h(6pt) linkedin.com/in/shivanshsingh8]
 ]
-#v(4pt)
-#line(length: 100%, stroke: 0.5pt)
+#v(2pt)
+#line(length: 100%, stroke: 0.4pt + rgb("#d0d0d0"))
 #v(4pt)
 ```
 
@@ -209,7 +210,8 @@ The following documents platform-level architectural knowledge gained through pr
 :::
 
 ::: {.content-visible when-format="docx"}
-| Topic | Knowledge & Application |
+
+| **Topic** | **Knowledge & Application** |
 |---|---|
 | **Medallion Architecture** | Worked in layered Raw/Conformed pipeline architecture in production. Studying Bronze/Silver/Gold through DP-600 and hands-on Fabric work. |
 | **OLAP Cubes vs. Lakehouse** | Modern lakehouses replace cubes with on-demand query engines against Parquet/Delta files -- Direct Lake mode for sub-second BI. |
@@ -221,15 +223,18 @@ The following documents platform-level architectural knowledge gained through pr
 | **BI Tooling** | Production QuickSight experience. SPICE = Import mode; direct query = DirectQuery / Direct Lake. Building Power BI through DP-600. |
 | **Delta Lake Internals** | ACID transactions, time travel, schema evolution, OPTIMIZE + ZORDER, MERGE INTO, streaming + batch unified. DP-600 study. |
 | **Streaming Architecture** | Kafka consumer groups, DLQ patterns, idempotent pipelines. Azure: Event Hubs + Fabric Eventstream. |
+
+: {tbl-colwidths="[25, 75]"}
+
 :::
 
 ```{=typst}
 #text(size: 8pt)[
 #table(
-  columns: (1.6in, 4.6in),
-  inset: 4pt,
-  stroke: 0.5pt + rgb("#d0d0d0"),
-  [*Topic*], [*Knowledge & Application*],
+  columns: (1.4in, 1fr),
+  inset: (x: 6pt, y: 4pt),
+  stroke: 0.3pt + rgb("#d8d8d8"),
+  table.header([*Topic*], [*Knowledge & Application*]),
   [Medallion Architecture], [Worked in layered Raw/Conformed pipeline architecture. Studying Bronze/Silver/Gold through DP-600 and Fabric.],
   [OLAP Cubes vs. Lakehouse], [Lakehouses replace cubes with on-demand query engines against Parquet/Delta files. Direct Lake mode for sub-second BI.],
   [Star Schema], [Fact + dimension tables. DP-600 and Fabric Lakehouse design for Gold layer feeding Power BI semantic models in enterprise real estate platforms.],
