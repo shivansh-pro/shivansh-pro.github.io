@@ -1,7 +1,6 @@
 ---
 title: "SHIVANSH SINGH"
 subtitle: "Senior Data Engineer  |  Cloud Data Platforms"
-author: "Shivansh Singh"
 format-links: false
 format:
   html:
