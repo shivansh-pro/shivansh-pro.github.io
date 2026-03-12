@@ -5,6 +5,7 @@ project:
 website:
   title: "Shivansh Singh"
   navbar: false
+  favicon: favicon.svg
 
 format:
   html:
