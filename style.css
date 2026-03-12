@@ -62,7 +62,9 @@ header.quarto-title-block,
 
 /* Hide the author block rendered by Quarto (redundant with title) */
 .quarto-title-meta,
-.quarto-title-authors {
+.quarto-title-authors,
+#title-block-header .author,
+p.author {
   display: none !important;
 }
 
