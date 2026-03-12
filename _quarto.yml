@@ -11,13 +11,14 @@ format:
     theme: none
     css: style.css
     toc: false
+    format-links: false
   typst:
     papersize: us-letter
     margin:
-      top: 0.45in
-      bottom: 0.45in
-      x: 0.75in
-    font-size: 11pt
+      top: 0.4in
+      bottom: 0.4in
+      x: 0.65in
+    font-size: 9pt
     output-file: "Resume-ShivanshSingh.pdf"
   docx:
     reference-doc: reference.docx

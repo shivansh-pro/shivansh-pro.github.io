@@ -1,15 +1,17 @@
 ---
 title: "SHIVANSH SINGH"
+subtitle: "Senior Data Engineer  |  Cloud Data Platforms"
+format-links: false
 format:
   html:
     css: style.css
   typst:
     papersize: us-letter
     margin:
-      top: 0.45in
-      bottom: 0.45in
-      x: 0.75in
-    font-size: 10pt
+      top: 0.4in
+      bottom: 0.4in
+      x: 0.65in
+    font-size: 9pt
     output-file: "Resume-ShivanshSingh.pdf"
   docx:
     reference-doc: reference.docx
@@ -17,14 +19,14 @@ format:
 ---
 
 ::: {.content-visible when-format="html"}
-::: {style="text-align: center; margin-bottom: 8px; color: #666; font-size: 0.88rem; letter-spacing: 0.02em;"}
-📞 ***REMOVED*** | 📧 [pro.shivansh@gmail.com](mailto:pro.shivansh@gmail.com) | 🔗 [LinkedIn](https://www.linkedin.com/in/shivanshsingh8/)
+::: {.contact-line}
+***REMOVED*** | [pro.shivansh@gmail.com](mailto:pro.shivansh@gmail.com) | [GitHub](https://github.com/shivansh-pro) | [LinkedIn](https://www.linkedin.com/in/shivanshsingh8/)
 :::
 :::
 
 ```{=typst}
 #align(center)[
-  #text(size: 10pt)[***REMOVED*** | pro.shivansh\@gmail.com | linkedin.com/in/shivanshsingh8]
+  #text(size: 9pt)[***REMOVED*** #h(6pt) | #h(6pt) pro.shivansh\@gmail.com #h(6pt) | #h(6pt) github.com/shivansh-pro #h(6pt) | #h(6pt) linkedin.com/in/shivanshsingh8]
 ]
 #v(4pt)
 #line(length: 100%, stroke: 0.5pt)
@@ -33,126 +35,265 @@ format:
 
 ::: {.content-visible when-format="docx"}
 ::: {custom-style="centered"}
-***REMOVED*** | pro.shivansh@gmail.com | linkedin.com/in/shivanshsingh8
+***REMOVED*** | pro.shivansh@gmail.com | github.com/shivansh-pro | linkedin.com/in/shivanshsingh8
 :::
 :::
 
 ::: {.content-visible when-format="html"}
 <div class="header-container">
   <a href="Resume-ShivanshSingh.pdf" class="btn">Download Resume - PDF</a>
-  <a href="Resume-ShivanshSingh.docx" class="btn">Download Resume - DOCX (Word)</a>
+  <a href="Resume-ShivanshSingh.docx" class="btn">Download Resume - DOCX</a>
 </div>
 :::
 
 ## PROFESSIONAL SUMMARY
 
-Results-driven Data / Software Engineer with 10+ years of experience architecting high-performance data platforms, cloud infrastructure, and backend systems on AWS. Proven track record delivering $360,000+ in annual cost savings, reducing pipeline latency by 83%, and leading enterprise-scale migrations (CloudFormation to Terraform, Aurora Serverless v1 to v2). Subject-matter expert in PostgreSQL and Terraform migrations; adept at cross-functional stakeholder management and mentoring engineering teams in Agile environments.
+Data Engineer with 10+ years designing and delivering enterprise-scale data platforms built on layered pipeline architectures (Raw-to-Conformed zones), high-throughput ETL/ELT pipelines, and distributed cloud infrastructure. Deep expertise in Apache Spark-based data processing, multi-source data integration, and data quality frameworks -- operating platforms that serve both operational systems and downstream analytics consumers. Delivered $360,000+ in annual cloud cost savings and reduced pipeline latency by 83% across a nationally-scaled, multi-source enterprise data platform. Currently deepening hands-on expertise in Microsoft Azure, Microsoft Fabric (ADF, Synapse Analytics, OneLake), and DP-600 certification. Proven track record partnering with data analysts and product teams to ensure pipeline data quality and structure enable reliable downstream reporting, mentoring engineers, and translating complex business requirements into production-grade architectures in Agile environments.
 
 ## CORE COMPETENCIES
 
-* **Cloud & Infrastructure:** AWS (Lambda, RDS/Aurora, EMR, S3, DynamoDB, Athena, Kinesis, SQS, SNS)  •  Terraform  •  Docker  •  CI/CD  •  GitHub Actions
-* **Data Engineering:** Apache Kafka  •  Apache Airflow  •  Apache Spark  •  Elasticsearch  •  ETL/ELT Pipelines  •  Data Governance  •  Data Quality
-* **Languages & Frameworks:** Python  •  Java  •  SQL  •  JavaScript  •  Flask  •  NLTK  •  Pytest  •  Linux / Shell Scripting
-* **Practices & Tools:** Distributed Systems  •  Agile / Scrum  •  IAM & Least Privilege  •  Microservices  •  JIRA  •  Git  •  Technical Mentorship
+::: {.competencies}
 
-## EXPERIENCE
+**Cloud & Platforms:** AWS (Lambda, EMR, RDS/Aurora, S3, DynamoDB, Kinesis, Athena, SQS, SNS) · Azure (ADF, Synapse Analytics, ADLS Gen2, Azure Functions -- currently building) · Microsoft Fabric (OneLake, Spark, Lakehouse, Warehouse -- DP-600 study) · Databricks (architectural equivalency) · Snowflake (architectural equivalency)
+
+**Data Architecture:** Layered Pipeline Architecture (Raw / Conformed zones) · ETL/ELT Pipelines · Streaming & Batch Processing · Late-Arriving Data & DLQ Reprocessing · Schema Change Management · Multi-Source Data Integration · Medallion Architecture (Bronze/Silver/Gold -- DP-600 study)
+
+**BI & Analytics Enablement:** Amazon Athena (serverless SQL against Raw and Conformed S3 Parquet files) · Amazon QuickSight (analyst-facing dashboards and reporting) · Conformed data layer design for BI consumption · Column contracts, null guarantees, and SLA definition for analytics consumers · Foundational transferability to Power BI semantic model design (DP-600 study)
+
+**Data Engineering:** Apache Spark · Apache Kafka · Apache Airflow · Elasticsearch · Data Quality Frameworks · Data Governance · End-to-End Pipeline Observability · High-Volume Reprocessing
+
+**NoSQL & Storage:** Amazon DynamoDB · Elasticsearch · PostgreSQL / Aurora · Redis · Vector Databases (pgvector)
+
+**Languages & Tools:** Python (Jupyter Notebooks) · SQL · Java · Terraform · Docker · GitHub Actions · CI/CD · Shell Scripting · DAX (DP-600 study) · JIRA · Git
+
+**Leadership:** Technical SME · Cross-functional Stakeholder Management · Engineering Mentorship · Solution Architecture · Agile/Scrum · Technical Documentation
+
+:::
+
+## PROFESSIONAL EXPERIENCE
 
 ::: {.content-visible when-format="html"}
 ::: {.experience-header}
-**ROCKET COMPANIES (Rocket Innovation Studio & Rocket Homes) | Detroit, MI & Toronto (Remote)**
+[ROCKET COMPANIES (Rocket Innovation Studio & Rocket Homes)]{.company-name}
+[Detroit, MI / Toronto (Remote)]{.company-location}
 :::
-*Data Engineer / Software Engineer* | *Nov 2018 - Jul 2025*
+[Data Engineer]{.job-role} [Nov 2018 -- Jul 2025]{.job-date}
 :::
 
 ::: {.content-visible when-format="docx"}
-### ROCKET COMPANIES (Rocket Innovation Studio & Rocket Homes) | Detroit, MI & Toronto (Remote)
+### ROCKET COMPANIES (Rocket Innovation Studio & Rocket Homes) | Detroit, MI / Toronto (Remote)
 
-#### Data Engineer / Software Engineer | Nov 2018 - Jul 2025
+#### Data Engineer | Nov 2018 -- Jul 2025
 :::
 
 ```{=typst}
-#text(weight: "bold")[ROCKET COMPANIES (Rocket Innovation Studio & Rocket Homes) | Detroit, MI & Toronto (Remote)]
+#text(weight: "bold")[ROCKET COMPANIES (Rocket Innovation Studio & Rocket Homes) | Detroit, MI / Toronto (Remote)]
 #linebreak()
-#text(style: "italic", fill: rgb("#555555"))[Data Engineer / Software Engineer | Nov 2018 - Jul 2025]
+#text(style: "italic", fill: rgb("#555555"))[Data Engineer | Nov 2018 – Jul 2025]
 #v(4pt)
 ```
 
-**Cloud Infrastructure & Cost Optimization**
+Designed, built, and maintained the enterprise data platform powering Rocket Homes' national expansion across all 50 US states. Architected layered ingest-to-delivery pipelines across heterogeneous source systems, maintained data quality frameworks for downstream analytics consumers, and led cloud infrastructure modernization initiatives spanning IaC, orchestration, and database platform migrations.
 
-* **Cost Savings:** Orchestrated Aurora PostgreSQL migration to Serverless v2 and optimized AWS EMR clusters, delivering $360,000 in combined annual savings and a 50% reduction in daily RDS costs.
-* **Infrastructure as Code:** Co-lead full enterprise migration from CloudFormation to Terraform; redesigned configurations for scalability, maintainability, and Infrastructure and Security compliance.
-* **Modernization & CI/CD Upgrades:** Directed Apache Airflow upgrade to v2.8.1 and built a local debugging environment, increasing developer velocity by 25% and reducing deployment times to under 10 minutes via GitHub Actions.
-* **Zero-Downtime Migration:** Executed secure GitHub to GitHub EMU migration in collaboration with Infrastructure and Security teams, authoring enterprise-level documentation while maintaining 100% platform uptime.
+**Data Platform Architecture | Layered Pipeline Design | Multi-Source Integration**
 
-**Data Engineering & Platform Development**
+* **Layered Pipeline Architecture (Raw to Conformed):** Designed and operated a two-layer data pipeline architecture across the enterprise data platform: a Raw layer for immutable ingest of upstream source feeds, API payloads, event streams, and third-party datasets; and a Conformed layer for cleansed, validated, business-rule-compliant records consumed by downstream operational systems and analytics teams.
+* **Analytics Consumer Enablement -- Amazon QuickSight:** Prepared and structured conformed pipeline data to support Data Analyst consumption via Amazon QuickSight. Defined column-level contracts (naming standards, null guarantees, grain definitions) and resolved pipeline-level data quality issues that surfaced in analyst reporting workflows. Supported analysts on reprocess job queries and ensured structured data met the reliability and freshness expectations of their QuickSight dashboards. Engineers and analysts queried the Conformed layer via Amazon Athena -- serverless SQL directly against S3 Parquet files without data movement.
+* **Enterprise Multi-Source Data Integration:** Integrated complex, heterogeneous source data -- structured database exports, API payloads, event streams, flat-file feeds, and third-party data providers -- into a unified, coherent data platform. Resolved entity-matching challenges across disparate source systems, recovering previously unlinked records and improving data completeness for downstream consumers. Directly analogous to multi-system CRM, property management, and ERP integration challenges common in enterprise real estate data platforms.
+* **Schema Change Management in Production:** Managed schema changes in live production pipelines -- adding new fields to conformed data structures (e.g., new enrichment fields, status fields, and computed attributes) while maintaining backward compatibility for existing consumers. Coordinated schema additions with downstream consumers to prevent breakage.
 
-* **High-Performance ETL:** Architected Spark-based ETL/ELT pipelines that reduced data delivery latency by 83% (from 1 hour to under 10 minutes) while cutting ongoing maintenance overhead by 30%.
-* **Scalable Data Platform:** Engineered robust data quality frameworks with advanced logging, alerting, and monitoring to support Rocket's national expansion across all 50 states.
-* **End-to-End SDLC Leadership:** Directed the Deeds and Assessments project, integrating complex property sale history and resolving discrepancies to remediate 3,000+ missing listings.
-* **Reliability Engineering:** Developed a 'Dry-Run' validation capability for high-volume reprocessing jobs, enabling risk-free execution across 1M+ record updates.
-* **Process Automation:** Automated legacy school ratings update pipeline, reducing turnaround time by 67%.
-* **Performance Engineering:** Engineered a custom Image Trimmer Lambda (Python/PIL) replacing a legacy solution, resulting in a more resilient and cost-effective image processing pipeline.
+**ETL/ELT Pipelines | Spark | Data Quality**
 
-**Technical Leadership & Mentorship**
+* **High-Performance Spark ETL/ELT Pipelines:** Architected Spark-based ETL/ELT pipelines processing millions of records across distributed EMR clusters. Applied advanced optimizations: partition pruning, broadcast joins for small lookup tables, predicate pushdown, and file compaction -- reducing pipeline latency 83% and cutting maintenance overhead 30%.
+* **Data Quality Framework:** Built enterprise-grade data quality frameworks with multi-tier validation: schema enforcement on raw ingest, business-rule validation on transform to conformed layer, and aggregate-level anomaly detection on pipeline output. Implemented row-count checks, null-rate monitoring, dead-letter queuing for failed records, and dry-run capabilities -- supporting the platform's reliability at national scale across 50 states.
+* **Dry-Run Validation for High-Volume Reprocessing:** Engineered a 'Dry-Run' execution mode for high-volume reprocessing jobs touching 1M+ records -- the job performs all reads and transforms but does not commit writes, generating a full impact report (records affected, sample outputs, quality checks) for human review before production execution. Eliminated silent corruption risk on large-scale reprocessing operations.
+* **Late-Arriving Data & DLQ Reprocessing:** Built reprocessing pipelines to handle late-arriving updates and failed message recovery -- including Kafka DLQ reprocessing, event replay recovery, attribute-addition triggers for records previously ingested with incomplete data, and bulk reprocessing of 350,000+ records when new filter structures were applied to directly enable a consumer product launch. Designed pipelines to be idempotent: re-running on already-processed records produces the same output without duplication or data corruption.
 
-* **Subject Matter Expert:** Served as primary SME for PostgreSQL and Terraform migrations, providing definitive guidance on complex solution design and production root-cause analysis.
-* **Mentorship:** Mentored junior engineers and new hires on Python and AWS data platforms; authored technical onboarding documentation that significantly reduced recurring support issues.
-* **Stakeholder Management:** Facilitated strategic alignment between Product Owners, Data Analysts, Infrastructure and Security teams, and senior management across the full SDLC in an Agile/Scrum environment.
-* **Engineering Culture Lead:** Organized team-building initiatives and led quarterly sync-ups to facilitate cross-teams knowledge sharing.
+**NoSQL, Caching & Distributed Data Stores**
+
+* **Elasticsearch -- Full-Text Search:** Maintained Elasticsearch indices powering full-text search across millions of records -- including geo-bounding-box queries, full-text field search, and faceted filtering. Resolved Kafka-to-Elasticsearch delivery failures via DLQ management for failed index writes. Performed large-scale bulk deletion of deprecated records using transaction-safe approaches to avoid runtime failures on production data. Maintained and edited Elasticsearch Watchers for job alerting and pipeline failure monitoring.
+* **Amazon DynamoDB -- Pipeline State Store:** Used DynamoDB as a current state store for pipeline job tracking -- one row per data source per job type (incremental, historical), updated in place on every cron-triggered run with status and last-run timestamp. Upsert pattern kept table size naturally bounded regardless of platform runtime. Direct primary key lookups by source identifier and job type.
+* **Vector Database Application (Hackathon):** Designed and partially implemented a multi-agent AI system for complex decision support -- specialized data-gathering agents pulled from multiple structured and unstructured data sources, with a compiler agent synthesizing outputs into a structured PDF report. Designed a multi-agent RAG pipeline: document chunkification, embedding generation via OpenAI text-embedding models, and pgvector storage for semantic retrieval -- chosen over context stuffing to support cross-session Q&A and scale beyond single-prompt context window limits. Identified document chunking strategies (fixed-size, semantic splitting) to optimize retrieval relevance. Built during a company hackathon.
+
+**Cloud Infrastructure | IaC | CI/CD | Cost Optimization**
+
+* **Cloud Cost Optimization ($360K Annual Savings):** Contributed to consolidating 50 state-dedicated EMR clusters into 8 shared clusters after workload analysis confirmed non-overlapping job schedules -- eliminating idle over-provisioning across the fleet and delivering approximately $300,000 of the combined annual savings. Owned EMR cluster configuration optimization: tuned instance types, executor memory, and autoscaling thresholds to match actual workload profiles per shared cluster. Orchestrated Aurora PostgreSQL migration from Serverless v1 to Serverless v2, cutting daily RDS costs 50% -- delivering the remaining $60,000 in annual savings. Identified and cancelled a planned I/O-optimized migration after data showed v2 savings exceeded projected gains.
+* **Infrastructure as Code (Terraform / CI/CD):** Co-led enterprise migration from AWS CloudFormation to Terraform across all infrastructure repos -- designed reusable module library, enforced naming conventions, implemented CI/CD via GitHub Actions with automated validation and deployment in under 10 minutes. Served as Terraform SME: provided architecture guidance, production root-cause analysis, and authored team documentation standard.
+* **Airflow Orchestration Modernization:** Directed Apache Airflow v2.8.1 upgrade and built a local Docker-based debugging environment -- eliminating the need to deploy to dev clusters to test DAG changes. Increased developer velocity 25%, reduced deployment cycle time to under 10 minutes.
+* **Zero-Downtime Platform Migrations:** Executed enterprise GitHub to GitHub EMU security migration maintaining 100% platform uptime -- coordinated with Infrastructure and Security teams, authored migration playbook, and validated zero data loss post-migration.
+
+**Technical Leadership | Mentorship | Stakeholder Management**
+
+* **Subject Matter Expert:** Designated SME for PostgreSQL and Terraform migrations across the data engineering team -- consulted on complex solution design, led production root-cause investigations, and provided technical sign-off on migration approaches. Peer feedback: 'ability to troubleshoot technical challenges and provide guidance has been incredibly valuable to team success.'
+* **Engineering Mentorship & Documentation:** Mentored junior engineers and new hires on Python, Spark, and AWS data platforms. Authored comprehensive onboarding documentation and Terraform reference guides that became team standards.
+* **Cross-functional Stakeholder Leadership:** Facilitated alignment across Product Owners, Data Analysts, Infrastructure and Security teams, and senior management across the full SDLC in Agile/Scrum environments -- translating data engineering capabilities into business-understandable outcomes.
+* **Engineering Culture:** Organized quarterly cross-team technical sync-ups and knowledge-sharing sessions. Led data engineering contributions to company hack-weeks -- including multi-agent AI decision support system and multimodal content automation pipeline.
+
+---
 
 ::: {.content-visible when-format="html"}
 ::: {.experience-header}
-**AMROCK (formerly Title Source) | Detroit, MI**
+[AMROCK (formerly Title Source)]{.company-name}
+[Detroit, MI]{.company-location}
 :::
-*Software Engineer - Machine Learning* | *Feb 2016 - Nov 2018*
+[Software Engineer - Machine Learning]{.job-role} [Feb 2016 -- Nov 2018]{.job-date}
 :::
 
 ::: {.content-visible when-format="docx"}
 ### AMROCK (formerly Title Source) | Detroit, MI
 
-#### Software Engineer - Machine Learning | Feb 2016 - Nov 2018
+#### Software Engineer - Machine Learning | Feb 2016 -- Nov 2018
 :::
 
 ```{=typst}
 #text(weight: "bold")[AMROCK (formerly Title Source) | Detroit, MI]
 #linebreak()
-#text(style: "italic", fill: rgb("#555555"))[Software Engineer - Machine Learning | Feb 2016 - Nov 2018]
+#text(style: "italic", fill: rgb("#555555"))[Software Engineer - Machine Learning | Feb 2016 – Nov 2018]
 #v(4pt)
 ```
 
-* **ML System Architecture:** Designed and deployed a RESTful Document Classification Service using Naive Bayes, achieving a 97% classification rate and 96% accuracy in production.
-* **Process Automation:** Built a text clustering utility (K-Means) to automate data cleaning, saving 160+ hours of manual labor per project cycle.
-* **Production Engineering:** Pioneered the company's first model-to-production pipeline by architecting Flask microservices, enabling deployment of ML models to live environments for the first time in company history.
+* **End-to-End ML Pipeline:** Built the company's first complete machine learning pipeline for mortgage document classification -- from raw unstructured data to production service. K-Means text clustering automated training data preparation by grouping document variants (e.g., "Warranty Deed", "WD", "General Warranty Deed") into consistently labeled clusters, saving 160+ hours of manual labeling per project cycle. Trained a Naive Bayes classifier on the cleaned labeled data -- achieving 97% classification rate and 96% accuracy across mortgage document types at scale.
+* **Feature Engineering & Data Preparation:** Built the full data ingestion, preprocessing, and feature engineering pipeline feeding the classifier -- handling unstructured document text, entity extraction, and feature vectorization via TF-IDF. K-Means cluster outputs served as structured training input, replacing the manual labeling process entirely.
+* **Production Deployment:** Architected Flask microservices to serve the classifier in production -- defining data contracts between the ML layer and downstream consumers, implementing versioning, latency SLAs, and failure handling. First model-to-production deployment in company history.
+
+---
 
 ::: {.content-visible when-format="html"}
 ::: {.experience-header}
-**CHEMICAL SEMANTICS INC. | Gainesville, FL**
+[CHEMICAL SEMANTICS INC.]{.company-name}
+[Gainesville, FL]{.company-location}
 :::
-*Software Developer Intern* | *Sep 2015 - Dec 2015*
+[Software Developer Intern]{.job-role} [Sep 2015 -- Dec 2015]{.job-date}
 :::
 
 ::: {.content-visible when-format="docx"}
 ### CHEMICAL SEMANTICS INC. | Gainesville, FL
 
-#### Software Developer Intern | Sep 2015 - Dec 2015
+#### Software Developer Intern | Sep 2015 -- Dec 2015
 :::
 
 ```{=typst}
 #text(weight: "bold")[CHEMICAL SEMANTICS INC. | Gainesville, FL]
 #linebreak()
-#text(style: "italic", fill: rgb("#555555"))[Software Developer Intern | Sep 2015 - Dec 2015]
+#text(style: "italic", fill: rgb("#555555"))[Software Developer Intern | Sep 2015 – Dec 2015]
 #v(4pt)
 ```
 
-* **Performance Optimization:** Analyzed and refactored graph rendering solutions, eliminating redundancies and reducing resource loading times by 50%.
+* **Performance Optimization:** Analyzed and refactored graph rendering algorithms, eliminating computational redundancies and reducing resource load times by 50%.
+
+## TECHNICAL ARCHITECTURE KNOWLEDGE & PLATFORM COMPARISONS
+
+The following documents platform-level architectural knowledge gained through production work, research, and active study -- relevant to roles spanning AWS, Azure, and modern cloud data platforms.
+
+::: {.content-visible when-format="html"}
+<div class="arch-table">
+
+| Topic | Knowledge & Application |
+|---|---|
+| **Medallion Architecture** | Worked in a layered Raw/Conformed pipeline architecture in production -- the direct operational predecessor of Bronze/Silver in Medallion. Currently studying the full Bronze/Silver/Gold pattern through DP-600 coursework and hands-on Microsoft Fabric work. Key principle: each layer has a distinct data contract -- immutable raw ingest, validated/conformed records, and analytics-ready aggregates. |
+| **OLAP Cubes vs. Lakehouse** | OLAP cubes (SSAS, Essbase) are pre-aggregated multidimensional structures -- rigid schema, expensive maintenance, poor support for ad-hoc queries and real-time data. Modern data lakehouses replace cubes with on-demand query engines (Synapse Serverless SQL, Fabric SQL Endpoint, Spark) against Parquet/Delta files -- flexible schema, live data, and and Direct Lake mode for sub-second BI without pre-aggregation. |
+| **Star Schema / Dimensional Modeling** | A dimensional modeling pattern: central fact table (measurable events) surrounded by dimension tables (descriptive context). Queries are simple and fast because joins are predictable and shallow. Study-level knowledge being applied through DP-600 and Fabric Lakehouse design -- relevant to designing the Gold layer that feeds Power BI semantic models in enterprise real estate platforms. |
+| **SCD Type 2** | A pattern for tracking historical changes to dimension attributes over time. When a dimension record changes, SCD Type 2 expires the old row and inserts a new row with updated values and a new effective date -- preserving full history. In Delta Lake, implemented via MERGE INTO with effective date and is_current flag logic. Currently building through DP-600 study -- directly relevant to lease history and tenant record tracking use cases in enterprise property management platforms. |
+| **Dimensional Models for Self-Service Analytics** | A Gold layer data structure designed so business analysts can build their own reports in Power BI without needing a data engineer to write SQL for every new question. Key design principles: intuitive naming, pre-joined structures, consistent grain, and documented measures. Study-level knowledge being built through DP-600. |
+| **Databricks vs. Fabric Spark** | Both run Apache Spark on Delta Lake. Databricks = independent platform with Unity Catalog governance, MLflow, and strong ML/DS tooling. Microsoft Fabric = integrated Microsoft ecosystem (Power BI, Purview, ADF, Synapse) with OneLake as unified storage. Fabric preferred when deep Power BI + Azure AD integration matters; Databricks preferred for ML-heavy workloads or multi-cloud. |
+| **Snowflake vs. Synapse vs. Fabric** | Snowflake = cloud-agnostic, fully managed SQL warehouse with strong separation of storage and compute. Azure Synapse = Microsoft-native, integrates SQL + Spark in one platform. Microsoft Fabric = newest, unifies Synapse + Power BI + ADF + ML under one license and OneLake. For Azure-native stacks, Fabric Warehouse supersedes standalone Synapse Dedicated. |
+| **BI Tooling -- QuickSight to Power BI** | Production experience: prepared conformed pipeline data for Amazon QuickSight consumption -- defining column contracts, null guarantees, grain definitions, and refresh SLAs for Data Analyst-facing dashboards. Key conceptual bridge: QuickSight SPICE datasets = Power BI Import mode; QuickSight direct query = Power BI DirectQuery / Direct Lake mode in Fabric. Athena served as the query engine (serverless SQL against S3 Parquet -- equivalent to Fabric SQL Analytics Endpoint against OneLake Delta files). Actively building Power BI and Direct Lake mode knowledge through DP-600 study. |
+| **Vector Databases & Embeddings** | Designed for a multi-agent AI decision support hackathon project: document chunking, embedding generation via OpenAI text-embedding models, and pgvector storage for semantic retrieval. Core concepts: chunking strategy (fixed-size vs. semantic), embedding dimensionality, cosine similarity search, and RAG pipelines. Growing relevance for enterprise data engineering as LLM-powered analytics layers emerge. |
+| **NoSQL Patterns** | DynamoDB (production): current state store for pipeline job tracking, upsert pattern per source and job type, direct primary key lookups. Elasticsearch (production): full-text search, geo-bounding-box queries, faceted filtering across millions of records, DLQ management, Elasticsearch Watchers for alerting. Redis (side project): cache-aside pattern, TTL-based holds, cache invalidation on CRUD. Selection rule: Redis for microsecond latency on small hot data; DynamoDB for large-scale key-value/document at millisecond; Elasticsearch for full-text and faceted search. |
+| **Delta Lake Internals** | Study-level knowledge being actively built through DP-600 preparation: ACID transactions via transaction log (_delta_log). Time travel. Schema enforcement + evolution (mergeSchema option). OPTIMIZE + ZORDER for file compaction and co-location. MERGE INTO for upsert patterns. Streaming + batch unified: same Delta table can receive streaming writes and batch reads simultaneously. Production equivalent background: worked with S3 + Parquet-based pipelines via Spark/EMR. |
+| **Streaming Architecture** | Kafka consumer groups, offset management, DLQ patterns for poison-pill messages, at-least-once delivery with idempotent pipeline design. Event-driven pipeline triggers. Azure equivalent: Event Hubs (Kafka-compatible API) + Fabric Eventstream for real-time lakehouse ingestion. |
+
+</div>
+:::
+
+::: {.content-visible when-format="docx"}
+| Topic | Knowledge & Application |
+|---|---|
+| **Medallion Architecture** | Worked in layered Raw/Conformed pipeline architecture in production. Studying Bronze/Silver/Gold through DP-600 and hands-on Fabric work. |
+| **OLAP Cubes vs. Lakehouse** | Modern lakehouses replace cubes with on-demand query engines against Parquet/Delta files -- Direct Lake mode for sub-second BI. |
+| **Star Schema** | Fact + dimension tables. Applied through DP-600 and Fabric Lakehouse design for Gold layer feeding Power BI semantic models in enterprise real estate platforms. |
+| **SCD Type 2** | Historical tracking via row expiration and effective dating. Delta Lake MERGE INTO with is_current flag. Relevant to lease history and tenant record tracking in enterprise property management platforms. |
+| **Dimensional Models** | Gold layer structures for self-service analytics in Power BI. Intuitive naming, pre-joined structures, consistent grain. DP-600 study. |
+| **Databricks vs. Fabric** | Both run Spark on Delta Lake. Databricks = independent + MLflow. Fabric = integrated Microsoft ecosystem + OneLake. |
+| **Snowflake vs. Synapse vs. Fabric** | Snowflake = cloud-agnostic SQL warehouse. Synapse = Microsoft-native. Fabric = newest, unifies all under OneLake. |
+| **BI Tooling** | Production QuickSight experience. SPICE = Import mode; direct query = DirectQuery / Direct Lake. Building Power BI through DP-600. |
+| **Delta Lake Internals** | ACID transactions, time travel, schema evolution, OPTIMIZE + ZORDER, MERGE INTO, streaming + batch unified. DP-600 study. |
+| **Streaming Architecture** | Kafka consumer groups, DLQ patterns, idempotent pipelines. Azure: Event Hubs + Fabric Eventstream. |
+:::
+
+```{=typst}
+#text(size: 8pt)[
+#table(
+  columns: (1.6in, 4.6in),
+  inset: 4pt,
+  stroke: 0.5pt + rgb("#d0d0d0"),
+  [*Topic*], [*Knowledge & Application*],
+  [Medallion Architecture], [Worked in layered Raw/Conformed pipeline architecture. Studying Bronze/Silver/Gold through DP-600 and Fabric.],
+  [OLAP Cubes vs. Lakehouse], [Lakehouses replace cubes with on-demand query engines against Parquet/Delta files. Direct Lake mode for sub-second BI.],
+  [Star Schema], [Fact + dimension tables. DP-600 and Fabric Lakehouse design for Gold layer feeding Power BI semantic models in enterprise real estate platforms.],
+  [SCD Type 2], [Historical tracking via row expiration. Delta Lake MERGE INTO with is_current flag. Relevant to lease history and tenant record tracking in enterprise property management platforms.],
+  [Dimensional Models], [Gold layer for self-service analytics. Intuitive naming, pre-joined structures, consistent grain. DP-600 study.],
+  [Databricks vs. Fabric], [Both run Spark on Delta. Databricks = independent + MLflow. Fabric = Microsoft ecosystem + OneLake.],
+  [Snowflake vs. Synapse vs. Fabric], [Snowflake = cloud-agnostic SQL warehouse. Synapse = Microsoft-native. Fabric = newest under OneLake.],
+  [BI Tooling], [Production QuickSight. SPICE = Import mode; direct query = DirectQuery / Direct Lake. Building Power BI through DP-600.],
+  [Delta Lake Internals], [ACID transactions, time travel, schema evolution, OPTIMIZE + ZORDER, MERGE INTO. DP-600 study.],
+  [Streaming Architecture], [Kafka consumer groups, DLQ patterns, idempotent pipelines. Azure: Event Hubs + Eventstream.],
+)
+]
+```
 
 ## EDUCATION
 
-* **Master of Science in Computer Science - 2015** | University of Florida, Gainesville, FL | GPA: 3.8/4.0
-* **Bachelor of Technology in Computer Science - 2014** | JIIT, Noida, India | GPA: 8.5/10.0
+* **M.S. Computer Science -- 2015** | University of Florida, Gainesville, FL | GPA: 3.8/4.0
+* **B.Tech Computer Science -- 2014** | JIIT, Noida, India | GPA: 8.5/10.0
 
-## PROJECTS & HACKATHONS
+## CERTIFICATIONS & PROFESSIONAL DEVELOPMENT
 
-* **AI Real Estate Buyer Report:** Architected a tiered multi-agent AI system integrating data from various official sources to generate comprehensive property insights for home buyers.
-* **Listing Narrative AI:** Built a multimodal tool using Computer Vision and TTS to transform static property images and descriptions into automated, immersive audio stories.
-* **Bluetooth NFC Location Tags:** Developed a self-guided tour system using Bluetooth and NFC tags for automated, real-time historical data delivery to mobile devices, enabling the replacement of manual tours.
+* **Microsoft Fabric Analytics Engineer Associate (DP-600)** -- In Progress (target: Q2 2026)
+* **AWS Certified Solutions Architect** -- Cloud infrastructure expertise (background credential)
+* **DP-700 Microsoft Fabric Data Engineer Associate** -- Planned follow-up after DP-600
+
+## SIDE PROJECTS & INNOVATION
+
+::: {.content-visible when-format="html"}
+::: {.project-header}
+[DriveBookAI -- Multi-Tenant SaaS Booking Platform]{.project-name}
+[Feb 2026 -- Present | Phase 2 Complete]{.project-date}
+:::
+:::
+
+::: {.content-visible when-format="docx"}
+### DriveBookAI -- Multi-Tenant SaaS Booking Platform
+
+*Feb 2026 -- Present | Phase 2 Complete*
+:::
+
+```{=typst}
+#text(weight: "bold")[DriveBookAI – Multi-Tenant SaaS Booking Platform]
+#linebreak()
+#text(style: "italic", fill: rgb("#555555"))[Feb 2026 – Present | Phase 2 Complete]
+#v(4pt)
+```
+
+Independently architected and built a production-ready, multi-tenant SaaS booking platform -- from zero to Phase 2 delivery in three weeks. The platform features an embeddable booking widget, a role-based Progressive Web App, and a stateless REST API -- designed for horizontal scalability, multi-region expansion, and an AI-powered feature suite. System design iterated through 4 published versions incorporating real business-owner feedback.
+
+::: {.content-visible when-format="html"}
+::: {.tech-stack}
+Node.js / Fastify · PostgreSQL / Supabase · Redis (Upstash) · React / PWA · Cloudflare CDN + R2 · Claude API · OpenAI Whisper · Google Maps API · Railway / Vercel
+:::
+:::
+
+* **Multi-Tenant Architecture:** Fully tenant-scoped PostgreSQL schema with Row-Level Security (RLS) enforced at the database layer. Default-deny policies with role-based access control across admin, instructor, and anonymous sessions. Defence-in-depth: tenant scoping enforced at both API and database layers.
+* **Stateless API Design:** Node.js / Fastify monolith with zero in-memory state -- all session state externalized to Redis. JWT authentication with short-lived access tokens and rotating refresh tokens. Horizontal scaling requires only adding containers.
+* **State Machine & Real-Time Sync:** Multi-state booking lifecycle with TTL-based soft holds and configurable response windows. Redis cache invalidation on every manual booking operation ensures real-time slot availability across concurrent users.
+* **Embeddable Widget:** Single-file JS widget served from Cloudflare CDN, rendered in an iframe for full CSS/JS isolation. Compatible with WordPress, Wix, Squarespace, and custom CMS platforms.
+* **AI Integration Layer:** Abstracted AI service interface supporting LLM-powered features including structured data extraction, multi-language voice transcription (Whisper), and RAG-based retrieval -- with graceful degradation, retry with backoff, and PII stripping before any AI API calls.
+* **Audit & Compliance:** Append-only audit trail with transactional integrity (failed audit write rolls back the booking change). PIPEDA-compliant data handling and zero sensitive-document storage by design.
+
+---
+
+**Additional Projects**
+
+* **AI Real Estate Buyer Report:** Designed and partially implemented a multi-agent AI system for complex decision support -- specialized data-gathering agents with a compiler agent synthesizing outputs into a structured PDF report. Multi-agent RAG pipeline with pgvector for semantic retrieval. Built during a company hackathon.
+* **Multimodal Content Pipeline:** Built a multimodal content pipeline during a company hack-week -- personally implemented the Text-to-Speech synthesis component transforming structured text descriptions into automated audio narratives. Full pipeline integrated Computer Vision for image feature extraction with TTS output.
+* **Bluetooth NFC Location Tags:** Developed a self-guided tour system using Bluetooth and NFC tags for location-triggered delivery of historical data to mobile devices -- replacing manual tour facilitation with automated, proximity-aware content retrieval.

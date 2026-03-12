@@ -3,11 +3,12 @@
 
 :root {
   --ink: #1a1a1a;
-  --muted: #666;
+  --muted: #555;
   --rule: #d0d0d0;
-  --accent: #c0392b;
+  --accent: #2c3e50;
   --bg: #fafaf8;
   --card: #fff;
+  --tag-bg: #f0f0ee;
 }
 
 *, *::before, *::after { box-sizing: border-box; }
@@ -15,12 +16,12 @@
 body {
   font-family: 'DM Sans', sans-serif;
   font-weight: 300;
-  font-size: 1.05rem;
+  font-size: 1rem;
   line-height: 1.7;
   color: var(--ink);
   background: var(--bg);
-  width: 92%;
-  max-width: 900px;
+  width: 94%;
+  max-width: 1100px;
   margin: 0 auto;
   padding: 48px 0 80px;
 }
@@ -30,33 +31,52 @@ header.quarto-title-block .title,
 h1.title {
   text-align: center !important;
   font-family: 'DM Serif Display', Georgia, serif;
-  font-size: 3.2rem;
+  font-size: 3rem;
   font-weight: 400;
-  letter-spacing: 0.04em;
+  letter-spacing: 0.05em;
   color: var(--ink);
-  margin-bottom: 0.1rem;
+  margin-bottom: 0;
 }
 
-/* ── Contact line ── */
-.quarto-title-authors {
-  display: flex;
-  justify-content: center;
-  flex-wrap: wrap;
-  gap: 6px 18px;
-  margin-top: -10px;
-  margin-bottom: 28px;
-  font-size: 0.95rem;
+/* ── Subtitle ── */
+.subtitle,
+p.subtitle {
+  text-align: center !important;
+  font-family: 'DM Sans', sans-serif;
+  font-size: 1.05rem;
   font-weight: 400;
   color: var(--muted);
-  letter-spacing: 0.02em;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  margin-top: 4px;
+  margin-bottom: 4px;
 }
 
-/* Remove default Quarto title block bottom border */
+/* Remove default Quarto title block styling */
 header.quarto-title-block,
 .quarto-title-block {
   border-bottom: none !important;
   padding-bottom: 0 !important;
   margin-bottom: 0 !important;
+}
+
+/* ── Contact line ── */
+.contact-line {
+  text-align: center;
+  font-size: 0.88rem;
+  font-weight: 400;
+  color: var(--muted);
+  letter-spacing: 0.02em;
+  margin-bottom: 8px;
+}
+.contact-line a {
+  color: var(--accent);
+  text-decoration: none;
+  border-bottom: 1px solid transparent;
+  transition: border-color 0.2s;
+}
+.contact-line a:hover {
+  border-bottom-color: var(--accent);
 }
 
 /* ── Download button strip ── */
@@ -66,7 +86,7 @@ header.quarto-title-block,
   gap: 14px;
   border-bottom: 1px solid var(--rule);
   padding: 14px 0;
-  margin-bottom: 40px;
+  margin-bottom: 36px;
 }
 
 .btn {
@@ -75,7 +95,7 @@ header.quarto-title-block,
   border: 1.5px solid var(--ink);
   color: var(--ink);
   border-radius: 2px;
-  font-size: 0.78rem;
+  font-size: 0.72rem;
   font-weight: 600;
   letter-spacing: 0.1em;
   text-transform: uppercase;
@@ -89,44 +109,74 @@ header.quarto-title-block,
 /* ── Section headings ── */
 h2 {
   font-family: 'DM Sans', sans-serif;
-  font-size: 1rem;
+  font-size: 0.85rem;
   font-weight: 700;
   color: var(--accent);
   text-transform: uppercase;
-  letter-spacing: 0.18em;
-  margin-top: 44px;
-  margin-bottom: 16px;
+  letter-spacing: 0.2em;
+  margin-top: 40px;
+  margin-bottom: 14px;
   padding-bottom: 6px;
   border-bottom: 1px solid var(--rule);
 }
 
-/* ── Experience entry (company name) ── */
+/* ── Competencies block ── */
+.competencies p {
+  margin: 0 0 8px 0;
+  font-size: 0.9rem;
+  line-height: 1.6;
+}
+.competencies strong {
+  font-weight: 600;
+  color: var(--ink);
+}
+
+/* ── Experience entry ── */
 .experience-header {
   display: flex;
   justify-content: space-between;
   align-items: baseline;
   margin-top: 28px;
+  margin-bottom: 2px;
+  flex-wrap: wrap;
+  gap: 4px;
+}
+.company-name {
   font-family: 'DM Sans', sans-serif;
   font-size: 0.95rem;
   font-weight: 600;
   color: var(--ink);
 }
-
-.job-title {
+.company-location {
+  font-size: 0.85rem;
+  font-weight: 400;
+  color: var(--muted);
+}
+.job-role {
+  display: inline-block;
   font-style: italic;
   color: var(--muted);
-  margin-bottom: 10px;
-  font-size: 0.95rem;
-  font-weight: 300;
+  font-size: 0.9rem;
+  font-weight: 400;
+}
+.job-date {
+  display: inline-block;
+  font-size: 0.85rem;
+  color: var(--muted);
+  font-weight: 400;
+  margin-left: 6px;
 }
 
+/* Italic rendering for role/date lines */
 em {
   color: var(--muted);
   font-style: normal;
 }
 
-/* Italic inside job-title stays italic */
-.job-title em { font-style: italic; }
+/* ── Sub-section labels (bold paragraph headings) ── */
+p > strong:first-child {
+  display: inline-block;
+}
 
 /* ── Lists ── */
 ul {
@@ -135,24 +185,95 @@ ul {
 }
 li {
   margin-bottom: 5px;
-  font-size: 1rem;
+  font-size: 0.95rem;
 }
 li strong {
   font-weight: 600;
   color: var(--ink);
 }
 
-/* ── Sub-section bold labels (Cloud Infrastructure, etc.) ── */
-p > strong:only-child,
-p > strong:first-child {
-  display: inline-block;
+/* ── Horizontal rules between experience entries ── */
+hr {
+  border: none;
+  border-top: 1px solid var(--rule);
+  margin: 28px 0;
+}
+
+/* ── Tech Architecture table ── */
+.arch-table table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 0.88rem;
+  margin-top: 12px;
+}
+.arch-table th {
+  text-align: left;
+  font-weight: 600;
+  font-size: 0.78rem;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  color: var(--muted);
+  padding: 8px 12px;
+  border-bottom: 2px solid var(--rule);
+}
+.arch-table td {
+  padding: 10px 12px;
+  border-bottom: 1px solid var(--tag-bg);
+  vertical-align: top;
+  line-height: 1.5;
+}
+.arch-table td:first-child {
+  width: 180px;
+  white-space: nowrap;
+  font-weight: 500;
+  color: var(--ink);
+}
+.arch-table tr:last-child td {
+  border-bottom: none;
+}
+
+/* ── Project headers ── */
+.project-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  margin-top: 16px;
+  margin-bottom: 2px;
+  flex-wrap: wrap;
+  gap: 4px;
+}
+.project-name {
+  font-family: 'DM Sans', sans-serif;
+  font-size: 0.95rem;
+  font-weight: 600;
+  color: var(--ink);
+}
+.project-date {
+  font-size: 0.85rem;
+  font-weight: 400;
+  color: var(--muted);
+}
+
+/* ── Tech stack tags ── */
+.tech-stack {
+  font-size: 0.82rem;
+  color: var(--muted);
+  letter-spacing: 0.02em;
+  margin-bottom: 12px;
+  padding: 8px 12px;
+  background: var(--tag-bg);
+  border-radius: 3px;
 }
 
 /* ── Mobile ── */
 @media (max-width: 680px) {
   body { width: 100%; padding: 28px 18px 60px; }
-  header.quarto-title-block .title { font-size: 2.2rem; }
+  header.quarto-title-block .title,
+  h1.title { font-size: 2.2rem; }
   .experience-header { flex-direction: column; gap: 2px; }
+  .project-header { flex-direction: column; gap: 2px; }
+  .header-container { flex-direction: column; align-items: center; }
+  .arch-table td:first-child { white-space: normal; }
 }
 
 /* ── Print / PDF export ── */
