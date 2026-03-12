@@ -3,9 +3,11 @@ project:
   output-dir: _site
 
 website:
-  title: "Shivansh Singh"
+  title: ""
   navbar: false
   favicon: favicon.svg
+  open-graph: false
+  twitter-card: false
 
 format:
   html:

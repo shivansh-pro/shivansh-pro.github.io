@@ -22,13 +22,13 @@ format:
 
 ::: {.content-visible when-format="html"}
 ::: {.contact-line}
-***REMOVED*** | [pro.shivansh@gmail.com](mailto:pro.shivansh@gmail.com) | [GitHub](https://github.com/shivansh-pro) | [LinkedIn](https://www.linkedin.com/in/shivanshsingh8/)
+[pro.shivansh@gmail.com](mailto:pro.shivansh@gmail.com) | [GitHub](https://github.com/shivansh-pro) | [LinkedIn](https://www.linkedin.com/in/shivanshsingh8/)
 :::
 :::
 
 ```{=typst}
 #align(center)[
-  #text(size: 9pt)[***REMOVED*** #h(6pt) | #h(6pt) pro.shivansh\@gmail.com #h(6pt) | #h(6pt) github.com/shivansh-pro #h(6pt) | #h(6pt) linkedin.com/in/shivanshsingh8]
+  #text(size: 9pt)[pro.shivansh\@gmail.com #h(6pt) | #h(6pt) github.com/shivansh-pro #h(6pt) | #h(6pt) linkedin.com/in/shivanshsingh8]
 ]
 #v(4pt)
 #line(length: 100%, stroke: 0.5pt)
@@ -37,7 +37,7 @@ format:
 
 ::: {.content-visible when-format="docx"}
 ::: {custom-style="centered"}
-***REMOVED*** | pro.shivansh@gmail.com | github.com/shivansh-pro | linkedin.com/in/shivanshsingh8
+pro.shivansh@gmail.com | github.com/shivansh-pro | linkedin.com/in/shivanshsingh8
 :::
 :::
 
