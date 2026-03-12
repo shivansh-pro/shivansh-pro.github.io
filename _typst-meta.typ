@@ -16,5 +16,5 @@
 }
 
 // Make table styling cleaner: subtle outlines, full width
-#set table(stroke: 0.3pt + rgb("#d8d8d8"))
-#show table.cell.where(y: 0): set text(weight: "bold", size: 7.5pt)
+#set table(stroke: 0.2pt + rgb("#e0e0e0"))
+#show table.cell.where(y: 0): set text(weight: "bold", size: 8.5pt)

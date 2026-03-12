@@ -229,11 +229,11 @@ The following documents platform-level architectural knowledge gained through pr
 :::
 
 ```{=typst}
-#text(size: 8pt)[
+#text(size: 9pt)[
 #table(
   columns: (1.4in, 1fr),
-  inset: (x: 6pt, y: 4pt),
-  stroke: 0.3pt + rgb("#d8d8d8"),
+  inset: (x: 8pt, y: 5pt),
+  stroke: 0.2pt + rgb("#e0e0e0"),
   table.header([*Topic*], [*Knowledge & Application*]),
   [Medallion Architecture], [Worked in layered Raw/Conformed pipeline architecture. Studying Bronze/Silver/Gold through DP-600 and Fabric.],
   [OLAP Cubes vs. Lakehouse], [Lakehouses replace cubes with on-demand query engines against Parquet/Delta files. Direct Lake mode for sub-second BI.],
