@@ -60,6 +60,12 @@ header.quarto-title-block,
   margin-bottom: 0 !important;
 }
 
+/* Hide the author block rendered by Quarto (redundant with title) */
+.quarto-title-meta,
+.quarto-title-authors {
+  display: none !important;
+}
+
 /* ── Contact line ── */
 .contact-line {
   text-align: center;
@@ -265,18 +271,112 @@ hr {
   border-radius: 3px;
 }
 
+/* ── Last updated footer ── */
+.last-updated {
+  text-align: center;
+  font-size: 0.78rem;
+  color: var(--muted);
+  letter-spacing: 0.05em;
+  margin-top: 48px;
+  padding-top: 16px;
+  border-top: 1px solid var(--rule);
+  opacity: 0.7;
+}
+
 /* ── Mobile ── */
 @media (max-width: 680px) {
   body { width: 100%; padding: 28px 18px 60px; }
   header.quarto-title-block .title,
   h1.title { font-size: 2.2rem; }
+  .subtitle, p.subtitle { font-size: 0.88rem; letter-spacing: 0.08em; }
+  .contact-line { font-size: 0.82rem; }
   .experience-header { flex-direction: column; gap: 2px; }
   .project-header { flex-direction: column; gap: 2px; }
-  .header-container { flex-direction: column; align-items: center; }
-  .arch-table td:first-child { white-space: normal; }
+  .header-container {
+    flex-direction: column;
+    align-items: center;
+    gap: 0 !important;
+    padding: 14px 0;
+  }
+  .header-container .btn {
+    text-align: center;
+    min-width: 220px;
+    display: block;
+    margin: 6px 0;
+  }
+
+  /* Stack table rows vertically on mobile */
+  .arch-table table,
+  .arch-table thead,
+  .arch-table tbody,
+  .arch-table tr,
+  .arch-table th,
+  .arch-table td {
+    display: block;
+    width: 100%;
+  }
+  .arch-table thead { display: none; }
+  .arch-table td:first-child {
+    white-space: normal;
+    font-size: 0.88rem;
+    font-weight: 600;
+    padding: 12px 0 2px 0;
+    border-bottom: none;
+    color: var(--accent);
+  }
+  .arch-table td:last-child {
+    padding: 0 0 14px 0;
+    border-bottom: 1px solid var(--tag-bg);
+    font-size: 0.85rem;
+  }
 }
 
 /* ── Print / PDF export ── */
 @media print {
-  body { max-width: 100%; width: 100%; padding: 0; background: white; }
+  body {
+    max-width: 100%;
+    width: 100%;
+    padding: 0;
+    margin: 0;
+    background: white;
+    font-size: 9.5pt;
+    line-height: 1.5;
+  }
+
+  /* Hide non-printable elements */
+  .header-container,
+  .last-updated {
+    display: none !important;
+  }
+
+  /* Tighten spacing */
+  h2 {
+    margin-top: 20px;
+    margin-bottom: 8px;
+    page-break-after: avoid;
+  }
+  .experience-header,
+  .project-header {
+    page-break-after: avoid;
+  }
+  ul { margin: 4px 0 6px 0; }
+  li { margin-bottom: 3px; }
+  hr { margin: 16px 0; }
+
+  /* Prevent orphaned headings / split entries */
+  h2, h3, .experience-header, .project-header {
+    page-break-after: avoid;
+  }
+  li, p {
+    orphans: 2;
+    widows: 2;
+  }
+
+  /* Remove link underlines for cleaner print */
+  a { text-decoration: none; color: var(--ink); }
+
+  /* Ensure table doesn't split across pages */
+  .arch-table table {
+    page-break-inside: avoid;
+  }
 }
