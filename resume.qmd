@@ -226,6 +226,15 @@ Node.js / Fastify · PostgreSQL / Supabase · Redis (Upstash) · React / PWA · 
 :::
 :::
 
+::: {.content-visible when-format="docx"}
+*Node.js / Fastify, PostgreSQL / Supabase, Redis (Upstash), React / PWA, Cloudflare CDN + R2, Claude API, OpenAI Whisper, Google Maps API, Railway / Vercel*
+:::
+
+```{=typst}
+#text(style: "italic", size: 8pt, fill: rgb("#555555"))[Node.js / Fastify, PostgreSQL / Supabase, Redis (Upstash), React / PWA, Cloudflare CDN + R2, Claude API, OpenAI Whisper, Google Maps API, Railway / Vercel]
+#v(4pt)
+```
+
 * **Multi-Tenant Architecture:** Fully tenant-scoped PostgreSQL schema with Row-Level Security (RLS) enforced at the database layer. Default-deny policies with role-based access control across admin, instructor, and anonymous sessions. Defence-in-depth: tenant scoping enforced at both API and database layers.
 * **Stateless API Design:** Node.js / Fastify monolith with zero in-memory state. All session state externalized to Redis. JWT authentication with short-lived access tokens and rotating refresh tokens. Horizontal scaling requires only adding containers.
 * **State Machine & Real-Time Sync:** Multi-state booking lifecycle with TTL-based soft holds and configurable response windows. Redis cache invalidation on every manual booking operation ensures real-time slot availability across concurrent users.
@@ -258,6 +267,15 @@ FastAPI / Python / PostgreSQL (Supabase) / Cloudflare R2 (Parquet) / React / Typ
 :::
 :::
 
+::: {.content-visible when-format="docx"}
+*FastAPI, Python, PostgreSQL (Supabase), Cloudflare R2 (Parquet), React, TypeScript, IBKR TWS API, Polygon.io REST API, Black-Scholes, Railway, Vercel*
+:::
+
+```{=typst}
+#text(style: "italic", size: 8pt, fill: rgb("#555555"))[FastAPI, Python, PostgreSQL (Supabase), Cloudflare R2 (Parquet), React, TypeScript, IBKR TWS API, Polygon.io REST API, Black-Scholes, Railway, Vercel]
+#v(4pt)
+```
+
 * **Multi-Source Data Pipeline:** Built a unified ETL pipeline ingesting 1-minute options bars from IBKR TWS API (ongoing) and Polygon.io REST API (6+ month historical backfill) through a common collector interface with batch audit logging and quality-flag bitmask validation.
 * **Greeks Computation Engine:** Implemented a custom Black-Scholes engine computing first-order (Delta, Gamma, Theta, Vega, Rho) and second-order greeks (Vanna, Charm, Vomma, Speed, Color) from price bars. IV solved via Newton-Raphson from mid-price.
 * **Tiered Storage Architecture:** Designed a hot tier (Supabase PostgreSQL, monthly-partitioned time-series tables) for active queries; cold tier (Cloudflare R2, Parquet via S3 API) for historical archive with zero egress cost design.
@@ -287,6 +305,15 @@ Independently architecting a production-grade, event-driven algorithmic trading 
 Python (asyncio) / PostgreSQL / Supabase / Claude API / Rithmic / Tradovate / IBKR APIs / Streamlit / Telegram Bot / GitHub Actions CI/CD
 :::
 :::
+
+::: {.content-visible when-format="docx"}
+*Python (asyncio), PostgreSQL, Supabase, Claude API, Rithmic, Tradovate, IBKR APIs, Streamlit, Telegram Bot, GitHub Actions CI/CD*
+:::
+
+```{=typst}
+#text(style: "italic", size: 8pt, fill: rgb("#555555"))[Python (asyncio), PostgreSQL, Supabase, Claude API, Rithmic, Tradovate, IBKR APIs, Streamlit, Telegram Bot, GitHub Actions CI/CD]
+#v(4pt)
+```
 
 * **Multi-Agent Orchestration:** 7-agent pipeline (Analyst, Validator, Executor, Tracker, Learner) coordinated by a state-machine orchestrator with rate limiting and event queuing. Claude API for analysis, deterministic execution layer for order placement.
 * **Real-Time Multi-Broker Integration:** Async tick feed aggregators across Rithmic (Protocol Buffers), Tradovate (WebSocket), and IBKR into unified tick-to-bar conversion for multi-timeframe indicator computation (CVD, VWAP, Volume Profile, EMA, Stoch RSI, ATR).
