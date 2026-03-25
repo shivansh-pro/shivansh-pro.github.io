@@ -7,6 +7,15 @@ _site/
 # Generated PDF (since GitHub Actions will build a fresh one)
 Resume-ShivanshSingh.pdf
 
+# Preview and temp images from working sessions
+_preview_*.png
+_pdf_preview_*.png
+
+# Backup files
+reference_backup.docx
+reference_current.docx
+nul
+
 # OS specific
 .DS_Store
 Thumbs.db
