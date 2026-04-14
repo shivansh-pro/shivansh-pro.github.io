@@ -45,6 +45,7 @@ REQUIRED_KEYWORDS = [
 # Section headers ATS systems look for
 EXPECTED_SECTIONS = [
     "professional summary",
+    "skills",
     "professional experience",
     "education",
     "certifications",

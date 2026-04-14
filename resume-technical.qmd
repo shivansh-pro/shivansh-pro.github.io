@@ -56,7 +56,7 @@ pro.shivansh@gmail.com | github.com/shivansh-pro | linkedin.com/in/shivanshsingh
 
 Data Engineer with 10+ years designing and delivering enterprise-scale data platforms built on layered pipeline architectures (Raw-to-Conformed zones), high-throughput ETL/ELT pipelines, and distributed cloud infrastructure. Deep expertise in Apache Spark-based data processing, multi-source data integration, and data quality frameworks, operating platforms that serve both operational systems and downstream analytics consumers. Delivered $360,000+ in annual cloud cost savings and reduced pipeline latency by 83% across a nationally-scaled, multi-source enterprise data platform. Currently deepening hands-on expertise in Microsoft Azure, Microsoft Fabric (ADF, Synapse Analytics, OneLake), and DP-600 certification. Proven track record partnering with data analysts and product teams to ensure pipeline data quality and structure enable reliable downstream reporting, mentoring engineers, and translating complex business requirements into production-grade architectures in Agile environments.
 
-## CORE COMPETENCIES
+## SKILLS
 
 ::: {.competencies}
 
