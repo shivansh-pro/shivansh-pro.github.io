@@ -1,6 +1,9 @@
 project:
   type: website
   output-dir: _site
+  render:
+    - resume.qmd
+    - resume-technical.qmd
 
 website:
   title: ""

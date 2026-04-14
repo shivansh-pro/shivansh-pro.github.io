@@ -33,7 +33,8 @@ Before every commit that touches resume content or formatting:
 
 ## File Structure
 
-- `resume.qmd` - Source file (Quarto markdown)
+- `resume.qmd` - Source file, 2-page concise resume (default)
+- `resume-technical.qmd` - Source file, detailed technical resume
 - `reference.docx` - DOCX template (heading styles, formatting)
 - `_typst-meta.typ` - Typst PDF metadata/formatting
 - `_meta.html` - HTML metadata (OG tags, ATS metadata)
