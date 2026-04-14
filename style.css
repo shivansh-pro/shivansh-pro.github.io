@@ -144,7 +144,7 @@ h2 {
   display: flex;
   justify-content: space-between;
   align-items: baseline;
-  margin-top: 28px;
+  margin-top: 8px;
   margin-bottom: 2px;
   flex-wrap: wrap;
   gap: 4px;
@@ -245,7 +245,7 @@ hr {
   display: flex;
   justify-content: space-between;
   align-items: baseline;
-  margin-top: 16px;
+  margin-top: 4px;
   margin-bottom: 2px;
   flex-wrap: wrap;
   gap: 4px;
